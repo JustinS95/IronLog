@@ -3,7 +3,8 @@ key: IL-E1-01
 title: Browse a combat style's upgrade order
 epic: E1 Upgrade catalogue
 label: epic:catalogue
-status: draft
+status: published
+github_issue: 4
 ---
 
 # Summary

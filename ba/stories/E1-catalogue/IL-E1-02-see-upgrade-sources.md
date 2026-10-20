@@ -3,7 +3,8 @@ key: IL-E1-02
 title: See where an upgrade comes from
 epic: E1 Upgrade catalogue
 label: epic:catalogue
-status: draft
+status: published
+github_issue: 5
 ---
 
 # Summary
