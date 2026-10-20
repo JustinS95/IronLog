@@ -12,7 +12,7 @@ Produced with the ba-super-powers `discovery-intake` skill. Discovery ran as a l
 | PVME upgrade order source files, `pvme/pvme-guides` @ `7a1f15f` (2026-10-20): `upgrading-info/upgrade-order/{melee,ranged,magic,necromancy,free-upgrades}.txt` | 128 style entries, transcribed to [`data/pvme_entries.csv`](data/pvme_entries.csv). Last revised: Melee 2026-05-28, Ranged 2026-04-15, Magic 2026-03-18, Necromancy 2026-03-25 | The PVME site states much of its content predates Combat Modernization (2026-03-02). The stakeholder accepted the lists as current (D20). Emoji-only references were interpreted from their emoji names |
 | PVME repository `LICENSE` | CC BY-NC-SA 4.0 | Contradicted the stakeholder's initial assumption that no license was needed. Resolved by D9 |
 | RuneScape Wiki item pages (runescape.wiki), read 2026-10-20 | Drop sources, components, access requirements for 142 items: [`data/sources_melee_necro.csv`](data/sources_melee_necro.csv), [`data/sources_ranged_magic.csv`](data/sources_ranged_magic.csv), merged in [`data/upgrade_inventory_review.csv`](data/upgrade_inventory_review.csv) | Pages were read through a summarizing fetch tool, not the raw text. 10 items are medium confidence (marked in the `confidence` column). Wiki content is CC BY-NC-SA 3.0 and needs attribution |
-| Collection-log parts research (in progress) | Parts for each assembled item (D29, D32) | **Not yet available.** Will be added as `data/parts.csv` |
+| Collection-log parts research, RuneScape Wiki log achievement pages, read 2026-10-20 | 95 part rows for 51 assembled items: [`data/parts.csv`](data/parts.csv) | Not all wiki log pages could be read in full. Pernix's quiver fragments: unknown. Some medium-confidence rows (see `confidence`) |
 
 ## Business context and outcome
 
@@ -79,6 +79,12 @@ The problem investigation branch was not used. The stakeholder is a domain exper
 | D33: Marking a finished item marks all its parts as owned. Owning all parts counts the finished item as obtained | Confirmed decision | Justin, 2026-10-20 |
 | D34: BA records (this summary and its data) are kept in the IronLog repo's `/ba` folder as part of the demo | Confirmed decision | Justin, 2026-10-20 |
 | D35: The ba-super-powers skills are not committed to the IronLog repo | Confirmed decision | Justin, 2026-10-20 |
+| D36: ba-super-powers owns the requirements. The development agent builds from the published Issues and doesn't write its own stories. Gaps it finds are raised back to the BA | Confirmed decision | Justin, 2026-10-20 |
+| D37: Epics are shown as labels `epic:catalogue`, `epic:tracking`, `epic:progress`, `epic:what-to-kill` (created by Justin). New Issues are auto-added to Project 4 by its Auto-add workflow | Confirmed decision | Justin, 2026-10-20 |
+| D38: When a PVME entry offers a choice, every option is shown, labelled as an alternative. To be revisited | Confirmed decision (provisional by owner's request) | Justin, 2026-10-20 |
+| D39: Elite dracolich pieces track only the Route A part (Vorkath's scale) | Confirmed decision | Justin, 2026-10-20 |
+| D40: Ranking counts a source once for each missing upgrade it drops at least one missing part of, not once per part | Confirmed decision | Justin, 2026-10-20 |
+| D41: Project 4 Status columns are Todo, Design, In progress, QA, Done | Fact (stakeholder) | Justin, 2026-10-20 |
 | Parts of one assembled item usually all drop from a single source group (e.g. every Rex Matriarch drops all Savage spear parts) | Fact as reported by the stakeholder ("if I remember correctly"). Exceptions to be checked against parts research | Justin, 2026-10-20; `data/parts.csv` pending |
 | Wiki drop sources in the inventory are accurate | Assumption (evidence: wiki summaries; 10 items medium confidence) | Verify medium-confidence rows before release |
 
@@ -86,13 +92,12 @@ The problem investigation branch was not used. The stakeholder is a domain exper
 
 | Question | Blocking / nonblocking / optional for this output | Impact | Owner if known / evidence needed |
 |---|---|---|---|
-| Ranking with parts: does a source count once per missing upgrade it drops a part of, or once per missing part? Proposed: once per upgrade | Nonblocking for this summary and E1–E3. Blocking for E4 ranking AC | E4 counting rule | Justin. Parts research will show how often parts come from more than one source |
-| Are epics shown with labels (`epic:catalogue`, `epic:tracking`, `epic:progress`, `epic:what-to-kill`)? Proposed: labels, which the publishing skill supports today | Nonblocking. Affects publishing only | Issue labels | Justin (labels must exist in the repo before publishing) |
+| Bulk parts (10 Black stone hearts, 10 Dagannoth King rings, 2,000 vital sparks): are they tracked by quantity entry (D15)? | Nonblocking for E1. Blocking for E2 part-tracking AC | E2 | Justin |
 | Medium-confidence drop sources (Vestments of havoc, First Necromancer set, Masterwork weapons, Annihilation's chest sources, Enchantment components, T80/T90 Necromancy materials) | Nonblocking. Data accuracy | Catalogue data | Verify on the wiki, possibly as a story |
 
 ## Readiness and next action
 
-- **Ready to draft now.** E1 (Upgrade catalogue) stories can be drafted against confirmed decisions. E2 and E3 can be drafted once `data/parts.csv` exists, since part tracking (D29, D32, D33) depends on knowing which parts exist.
+- **Ready to draft now.** E1 (Upgrade catalogue) stories can be drafted against confirmed decisions. E2 and E3 can be drafted against `data/parts.csv` once the parts questions below are settled.
 - **Provisional.** E4 ranking acceptance criteria stay provisional until the part-counting rule is confirmed.
 - **Not implied.** This discovery doesn't approve any technical design. Storage, data format and UI layout belong to the development agent, within the behavior the stories set.
 - **Next.** `scope-decomposition` records the confirmed epic map. Then `writing-user-stories` drafts E1 for Justin's review.
