@@ -26,12 +26,13 @@ PVME's lists are the community's reference for gear progression, but they're wri
 - [ ] 7. When a style needs the same upgrade more than once, the upgrade shows how many are needed. Example: Necromancy needs 2 Soulbound lanterns (entries N2-07 and N3-05).
 - [ ] 8. Each Shard of Genesis Essence entry appears as an upgrade to the specific weapon it's applied to, named with that weapon. Examples: "Shard of Genesis Essence – Ek-ZekKil" for Melee, and one each for the Omni guard and Soulbound lantern for Necromancy.
 - [ ] 9. The Melee Essence of Finality (Annihilation) entry appears as the Annihilation upgrade.
-- [ ] 10. The Free Upgrades additions appear in each style's list: the Amulet of the forsaken (for Berserker's Fury), plus the igneous cape for that style (Kal-Ket, Kal-Xil, Kal-Mej or Kal-Mor). *Provisional: position and styles depend on Open Question 1.*
-- [ ] 11. Each style's list credits PVME as the source of the upgrade order, links to that style's PVME upgrade-order page, and names the CC BY-NC-SA 4.0 license.
+- [ ] 10. When a PVME entry offers a choice ("one of" or "or"), every option appears at that entry's position, labelled as an alternative. Examples: Dragon claws / Varanus' mercy; Eclipsed Soul + Divine Rage / Malevolence.
+- [ ] 11. The Free Upgrades additions appear in each style's list: the Amulet of the forsaken (for Berserker's Fury), plus the igneous cape for that style (Kal-Ket, Kal-Xil, Kal-Mej or Kal-Mor). *Provisional: position and styles depend on Open Question 1.*
+- [ ] 12. Each style's list credits PVME as the source of the upgrade order, links to that style's PVME upgrade-order page, and names the CC BY-NC-SA 4.0 license.
 
 # Open Questions
-1. **Free Upgrades additions.** Where do they appear in each list, and does the Amulet of the forsaken appear under all four styles? Proposed: in all four, at the position of PVME's "All other upgrades in Free Upgrades" line (start of Stage 2). Kal-Ket keeps its own Melee position (Stage 1). *Owner: Justin. Blocks AC 10 only.*
-2. **"One of" entries.** Melee has "Essence of Finality plus *one of* Dragon claws / Varanus' mercy" and "Eclipsed Soul + Divine Rage *or* Malevolence". Are both options shown? Proposed: both are shown, labelled as alternatives. How alternatives count toward totals is decided in E4. *Owner: Justin. Affects AC 3.*
+1. **Free Upgrades additions.** Where do they appear in each list, and does the Amulet of the forsaken appear under all four styles? Proposed: in all four, at the position of PVME's "All other upgrades in Free Upgrades" line (start of Stage 2). Kal-Ket keeps its own Melee position (Stage 1). *Owner: Justin. Blocks AC 11 only.*
+2. **"One of" entries, revisit later.** AC 10 reflects the current decision (D38). Justin wants to come back to how alternatives behave. How they count toward totals is decided in E4.
 
 # Traceability
 | Requirement/source | AC | Status/decision |
@@ -44,5 +45,6 @@ PVME's lists are the community's reference for gear progression, but they're wri
 | D15 quantity needed | 7 | Confirmed |
 | D16, D18 Genesis shard per weapon | 8 | Confirmed |
 | D14, D23 Essence of Finality = stored weapon; Annihilation kept | 9 | Confirmed |
-| D22, D25 Free Upgrades additions | 10 | Confirmed items; position provisional |
-| D9 PVME attribution and license | 11 | Confirmed |
+| D38 alternatives shown as alternatives (to revisit) | 10 | Confirmed for now |
+| D22, D25 Free Upgrades additions | 11 | Confirmed items; position provisional |
+| D9 PVME attribution and license | 12 | Confirmed |

@@ -81,6 +81,10 @@ The problem investigation branch was not used. The stakeholder is a domain exper
 | D35: The ba-super-powers skills are not committed to the IronLog repo | Confirmed decision | Justin, 2026-10-20 |
 | D36: ba-super-powers owns the requirements. The development agent builds from the published Issues and doesn't write its own stories. Gaps it finds are raised back to the BA | Confirmed decision | Justin, 2026-10-20 |
 | D37: Epics are shown as labels `epic:catalogue`, `epic:tracking`, `epic:progress`, `epic:what-to-kill` (created by Justin). New Issues are auto-added to Project 4 by its Auto-add workflow | Confirmed decision | Justin, 2026-10-20 |
+| D38: When a PVME entry offers a choice, every option is shown, labelled as an alternative. To be revisited | Confirmed decision (provisional by owner's request) | Justin, 2026-10-20 |
+| D39: Elite dracolich pieces track only the Route A part (Vorkath's scale) | Confirmed decision | Justin, 2026-10-20 |
+| D40: Ranking counts a source once for each missing upgrade it drops at least one missing part of, not once per part | Confirmed decision | Justin, 2026-10-20 |
+| D41: Project 4 Status columns are Todo, Design, In progress, QA, Done | Fact (stakeholder) | Justin, 2026-10-20 |
 | Parts of one assembled item usually all drop from a single source group (e.g. every Rex Matriarch drops all Savage spear parts) | Fact as reported by the stakeholder ("if I remember correctly"). Exceptions to be checked against parts research | Justin, 2026-10-20; `data/parts.csv` pending |
 | Wiki drop sources in the inventory are accurate | Assumption (evidence: wiki summaries; 10 items medium confidence) | Verify medium-confidence rows before release |
 
@@ -88,9 +92,7 @@ The problem investigation branch was not used. The stakeholder is a domain exper
 
 | Question | Blocking / nonblocking / optional for this output | Impact | Owner if known / evidence needed |
 |---|---|---|---|
-| Ranking with parts: does a source count once per missing upgrade it drops a part of, or once per missing part? Proposed: once per upgrade | Nonblocking for this summary and E1–E3. Blocking for E4 ranking AC | E4 counting rule | Justin. Parts research found at least 9 items whose parts come from more than one source group (see `data/parts.csv`), which supports counting once per upgrade |
 | Bulk parts (10 Black stone hearts, 10 Dagannoth King rings, 2,000 vital sparks): are they tracked by quantity entry (D15)? | Nonblocking for E1. Blocking for E2 part-tracking AC | E2 | Justin |
-| Elite dracolich has two recipes (Route A: Vorkath's scale; Route B: ancient scales + Pernix piece). Track Route A only (proposed) or both? | Nonblocking for E1. Blocking for E2 for those 5 items | E2 | Justin |
 | Medium-confidence drop sources (Vestments of havoc, First Necromancer set, Masterwork weapons, Annihilation's chest sources, Enchantment components, T80/T90 Necromancy materials) | Nonblocking. Data accuracy | Catalogue data | Verify on the wiki, possibly as a story |
 
 ## Readiness and next action
