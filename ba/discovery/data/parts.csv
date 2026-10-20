@@ -1,0 +1,96 @@
+item,part_name,part_quantity_needed,part_drop_sources,on_collection_log,wiki_url,confidence,notes
+Laniakea's spear,Savage spear shaft,1,Orikalka;Pthentraken;Rathis;Osseous,yes,https://runescape.wiki/w/Laniakea's_spear,high,Rex Matriarchs log (Rex Flex); any matriarch
+Laniakea's spear,Savage spear tip,1,Orikalka;Pthentraken;Rathis;Osseous,yes,https://runescape.wiki/w/Laniakea's_spear,high,Rex Matriarchs log (Rex Flex); any matriarch
+Laniakea's spear,Savage spear cap,1,Orikalka;Pthentraken;Rathis;Osseous,yes,https://runescape.wiki/w/Laniakea's_spear,high,Rex Matriarchs log (Rex Flex); any matriarch
+Laniakea's spear,Savage plume,1,Orikalka;Pthentraken;Rathis;Osseous,yes,https://runescape.wiki/w/Laniakea's_spear,high,Rex Matriarchs log (Rex Flex); any matriarch
+Dark ice sliver,Glacor remnants,2500,Arch-Glacor (normal; Hard Mode);Glacyte,yes,https://runescape.wiki/w/Dark_ice_sliver,high,Arch-Glacor log; bulk item
+Dark ice sliver,Dark nilas,5,Arch-Glacor (normal 2+ mechanics; Hard Mode),yes,https://runescape.wiki/w/Dark_ice_sliver,high,Arch-Glacor log
+Dark ice sliver,Black stone heart,10,Taraket the Necromancer;The Ambassador;Crassian Leviathan;Zemouregal & Vorkath,yes,https://runescape.wiki/w/Dark_ice_sliver,high,Shadow Reef log (The Shadow Thief); unclear if Z&V hearts count; 2 Glorious bars untracked
+Igneous Kal-Ket,TokHaar-Kal-Ket,1,Fight Kiln (reward),yes,https://runescape.wiki/w/Igneous_Kal-Ket,high,Fight Cave/Kiln log (First Rule of Fight Caves); base cape is a Kiln reward not a drop
+Igneous Kal-Ket,Igneous stone,1,TzKal-Zuk (normal or Hard Mode; no-checkpoint run),yes,https://runescape.wiki/w/Igneous_Kal-Ket,high,TzKal-Zuk log
+Masterwork 2h sword,Blade of Nymora or Blade of Avaryss,2,Twin Furies,yes,https://runescape.wiki/w/Masterwork_2h_sword,medium,Any mix of 2 blades -> 4 demonic essence; Twin Furies log
+Masterwork 2h sword,Drygore weapon (any of 6 main/off-hand),2,Kalphite King,yes,https://runescape.wiki/w/Masterwork_2h_sword,medium,"Any 2 drygores -> 4 kalphite essence; KK log. Chaotic weapons (Dungeoneering shop), bars, undead dragon leather untracked"
+Enhanced gloves of passage,Gloves of passage,1,The Magister,yes,https://runescape.wiki/w/Enhanced_gloves_of_passage,high,Base item; Magister log (Superior Successor)
+Enhanced gloves of passage,Glacor remnants,1000,Arch-Glacor (normal; Hard Mode);Glacyte,yes,https://runescape.wiki/w/Enhanced_gloves_of_passage,high,Arch-Glacor log; 10 Necronium bars untracked
+Enhanced gloves of passage,Leng artefact,1,Arch-Glacor (normal 5 mechanics; Hard Mode),yes,https://runescape.wiki/w/Enhanced_gloves_of_passage,high,Arch-Glacor log
+Enchantment of agony,Abyssal whip,1,Abyssal demon,yes,https://runescape.wiki/w/Enchantment_of_agony,medium,Combined with whip vine into abyssal vine whip; Morytania slayer log; other whip sources not checked
+Enchantment of agony,Whip vine,1,Mutated jadinko male;Mutated jadinko guard,yes,https://runescape.wiki/w/Enchantment_of_agony,medium,"Karamja slayer log; sources from earlier research, not re-verified. Slivers of strength not on log; shadow components untracked"
+Champion's ring,Heart of the Warrior,1,Orikalka,yes,https://runescape.wiki/w/Champion's_ring,high,Rex Matriarchs log
+Champion's ring,Warrior ring,10,Dagannoth Rex,yes,https://runescape.wiki/w/Champion's_ring,high,Dagannoth Kings log
+Ek-ZekKil,Obsidian blade,1,TzKal-Zuk (Hard Mode),yes,https://runescape.wiki/w/Ek-ZekKil,high,TzKal-Zuk log; Hard Mode only
+Ek-ZekKil,Magma core,1,TzKal-Zuk (Hard Mode),yes,https://runescape.wiki/w/Ek-ZekKil,high,TzKal-Zuk log; Hard Mode only
+Ek-ZekKil,Ancient hilt,1,TzKal-Zuk (Hard Mode),yes,https://runescape.wiki/w/Ek-ZekKil,high,TzKal-Zuk log; Hard Mode only
+Enchantment of heroism,Pneumatic gloves,1,Automaton Tracer,yes,https://runescape.wiki/w/Enchantment_of_heroism,high,Kandarin slayer log; slivers of strength not on log; scrimshaws/energy untracked
+Zaros godsword,Dormant Zaros godsword,1,"Telos, the Warden",yes,https://runescape.wiki/w/Zaros_godsword,high,Telos log (Party Anima)
+Zaros godsword,Orb of pure anima,1,"Telos, the Warden",yes,https://runescape.wiki/w/Zaros_godsword,high,Telos log (Party Anima)
+Zaros godsword,Orb of volcanic anima,1,"Telos, the Warden",yes,https://runescape.wiki/w/Zaros_godsword,high,Telos log (Party Anima)
+Zaros godsword,Orb of corrupted anima,1,"Telos, the Warden",yes,https://runescape.wiki/w/Zaros_godsword,high,Telos log (Party Anima)
+Dark Sliver of Leng,Glacor remnants,7500,Arch-Glacor (normal; Hard Mode);Glacyte,yes,https://runescape.wiki/w/Dark_Sliver_of_Leng,high,"Arch-Glacor log; lower-tier Dark ice sliver is crafted, not listed"
+Dark Sliver of Leng,Dark nilas,10,Arch-Glacor (normal 2+ mechanics; Hard Mode),yes,https://runescape.wiki/w/Dark_Sliver_of_Leng,high,Arch-Glacor log
+Dark Sliver of Leng,Frozen core of Leng,1,Arch-Glacor (Hard Mode),yes,https://runescape.wiki/w/Dark_Sliver_of_Leng,high,Arch-Glacor log; Hard Mode only
+Dark Shard of Leng,Glacor remnants,7500,Arch-Glacor (normal; Hard Mode);Glacyte,yes,https://runescape.wiki/w/Dark_Shard_of_Leng,high,"Arch-Glacor log; lower-tier Dark ice shard is crafted, not listed"
+Dark Shard of Leng,Dark nilas,10,Arch-Glacor (normal 2+ mechanics; Hard Mode),yes,https://runescape.wiki/w/Dark_Shard_of_Leng,high,Arch-Glacor log
+Dark Shard of Leng,Frozen core of Leng,1,Arch-Glacor (Hard Mode),yes,https://runescape.wiki/w/Dark_Shard_of_Leng,high,Arch-Glacor log; Hard Mode only
+Limitless ability codex,Vital spark,2000,Sophanem corrupted creatures;Soul devourers (akh);The Magister;Amascut;Nakatra;Vermyx;Kezalam,yes,https://runescape.wiki/w/Limitless_ability_codex,high,Kharidian Desert slayer log; whether boss-dropped sparks count not checked
+Sirenic mask,(none),,,no,https://runescape.wiki/w/Sirenic_armour,medium,Sirenic scales are drops but not found on any boss/slayer log; algarum thread is shop
+Sirenic hauberk,(none),,,no,https://runescape.wiki/w/Sirenic_armour,medium,Sirenic scales are drops but not found on any boss/slayer log; algarum thread is shop
+Sirenic chaps,(none),,,no,https://runescape.wiki/w/Sirenic_armour,medium,Sirenic scales are drops but not found on any boss/slayer log; algarum thread is shop
+Pernix's quiver,Fragments of Pernix's quiver,100,Elder Trove T3 (Jas;Bik;Wen;Ful) with tier 6 pontifex shadow ring,unknown,https://runescape.wiki/w/Fragments_of_Pernix's_quiver,low,"Trove reward, not a direct drop; log status not found on wiki"
+Bow of the Last Guardian,Top of the Last Guardian's bow,1,"Zamorak, Lord of Chaos",yes,https://runescape.wiki/w/Bow_of_the_Last_Guardian,high,Zamorak log
+Bow of the Last Guardian,Bottom of the Last Guardian's bow,1,"Zamorak, Lord of Chaos",yes,https://runescape.wiki/w/Bow_of_the_Last_Guardian,high,Zamorak log
+Bow of the Last Guardian,Divine bowstring,1,"Zamorak, Lord of Chaos",yes,https://runescape.wiki/w/Bow_of_the_Last_Guardian,high,Zamorak log
+Eldritch crossbow,Eldritch crossbow stock,1,The Ambassador,yes,https://runescape.wiki/w/Eldritch_crossbow,high,Shadow Reef log (The Shadow Thief)
+Eldritch crossbow,Eldritch crossbow limb,1,The Ambassador,yes,https://runescape.wiki/w/Eldritch_crossbow,high,Shadow Reef log (The Shadow Thief)
+Eldritch crossbow,Eldritch crossbow mechanism,1,The Ambassador,yes,https://runescape.wiki/w/Eldritch_crossbow,high,Shadow Reef log (The Shadow Thief)
+Seren godbow,Dormant Seren godbow,1,"Telos, the Warden",yes,https://runescape.wiki/w/Seren_godbow,high,Telos log (Party Anima)
+Seren godbow,Orb of pure anima,1,"Telos, the Warden",yes,https://runescape.wiki/w/Seren_godbow,high,Telos log (Party Anima)
+Seren godbow,Orb of volcanic anima,1,"Telos, the Warden",yes,https://runescape.wiki/w/Seren_godbow,high,Telos log (Party Anima)
+Seren godbow,Orb of corrupted anima,1,"Telos, the Warden",yes,https://runescape.wiki/w/Seren_godbow,high,Telos log (Party Anima)
+Dracolich coif,Vorkath's spike,18,Zemouregal & Vorkath (normal; Hard Mode),yes,https://runescape.wiki/w/Dracolich_armour,high,Z&V log; undead dragonhide base piece is crafted from hide not on log
+Dracolich hauberk,Vorkath's spike,36,Zemouregal & Vorkath (normal; Hard Mode),yes,https://runescape.wiki/w/Dracolich_armour,high,Z&V log; undead dragonhide base piece is crafted from hide not on log
+Dracolich chaps,Vorkath's spike,27,Zemouregal & Vorkath (normal; Hard Mode),yes,https://runescape.wiki/w/Dracolich_armour,high,Z&V log; undead dragonhide base piece is crafted from hide not on log
+Dracolich vambraces,Vorkath's spike,9,Zemouregal & Vorkath (normal; Hard Mode),yes,https://runescape.wiki/w/Dracolich_armour,high,Z&V log; undead dragonhide base piece is crafted from hide not on log
+Dracolich boots,Vorkath's spike,9,Zemouregal & Vorkath (normal; Hard Mode),yes,https://runescape.wiki/w/Dracolich_armour,high,Z&V log; undead dragonhide base piece is crafted from hide not on log
+Stalker's ring,Heart of the Archer,1,Rathis,yes,https://runescape.wiki/w/Stalker's_ring,high,Rex Matriarchs log
+Stalker's ring,Archers' ring,10,Dagannoth Supreme,yes,https://runescape.wiki/w/Stalker's_ring,high,Dagannoth Kings log
+Enchantment of shadows,Tracking gloves,1,Automaton Generator,yes,https://runescape.wiki/w/Enchantment_of_shadows,high,Kandarin slayer log; slivers of power not on log; scrimshaws/energy untracked
+Elite dracolich coif,Vorkath's scale,1,Zemouregal & Vorkath (Hard Mode),yes,https://runescape.wiki/w/Elite_dracolich_armour,high,Route A (simplest); Z&V log; Dracolich base not listed
+Elite dracolich coif,Ancient scale,140,Seiryu the Azure Serpent;The Ambassador (elite chest);Rex Matriarchs,yes,https://runescape.wiki/w/Elite_dracolich_armour,medium,"Route B only; listed as bulk log item, owning log not confirmed"
+Elite dracolich coif,Pernix cowl,1,Nex,yes,https://runescape.wiki/w/Elite_dracolich_armour,medium,Route B only; broken down for 2 ranged praesulic essence; Nex log
+Elite dracolich hauberk,Vorkath's scale,1,Zemouregal & Vorkath (Hard Mode),yes,https://runescape.wiki/w/Elite_dracolich_armour,high,Route A (simplest); Z&V log; Dracolich base not listed
+Elite dracolich hauberk,Ancient scale,420,Seiryu the Azure Serpent;The Ambassador (elite chest);Rex Matriarchs,yes,https://runescape.wiki/w/Elite_dracolich_armour,medium,"Route B only; listed as bulk log item, owning log not confirmed"
+Elite dracolich hauberk,Pernix body,1,Nex,yes,https://runescape.wiki/w/Elite_dracolich_armour,medium,Route B only; broken down for 5 ranged praesulic essence; Nex log
+Elite dracolich chaps,Vorkath's scale,1,Zemouregal & Vorkath (Hard Mode),yes,https://runescape.wiki/w/Elite_dracolich_armour,high,Route A (simplest); Z&V log; Dracolich base not listed
+Elite dracolich chaps,Ancient scale,280,Seiryu the Azure Serpent;The Ambassador (elite chest);Rex Matriarchs,yes,https://runescape.wiki/w/Elite_dracolich_armour,medium,"Route B only; listed as bulk log item, owning log not confirmed"
+Elite dracolich chaps,Pernix chaps,1,Nex,yes,https://runescape.wiki/w/Elite_dracolich_armour,medium,Route B only; broken down for 3 ranged praesulic essence; Nex log
+Elite dracolich vambraces,Vorkath's scale,1,Zemouregal & Vorkath (Hard Mode),yes,https://runescape.wiki/w/Elite_dracolich_armour,high,Route A (simplest); Z&V log; Dracolich base not listed
+Elite dracolich vambraces,Ancient scale,70,Seiryu the Azure Serpent;The Ambassador (elite chest);Rex Matriarchs,yes,https://runescape.wiki/w/Elite_dracolich_armour,medium,"Route B only; listed as bulk log item, owning log not confirmed"
+Elite dracolich vambraces,Pernix gloves or Pernix boots,1,Nex,yes,https://runescape.wiki/w/Elite_dracolich_armour,medium,Route B only; broken down for 1 ranged praesulic essence; Nex log
+Elite dracolich boots,Vorkath's scale,1,Zemouregal & Vorkath (Hard Mode),yes,https://runescape.wiki/w/Elite_dracolich_armour,high,Route A (simplest); Z&V log; Dracolich base not listed
+Elite dracolich boots,Ancient scale,70,Seiryu the Azure Serpent;The Ambassador (elite chest);Rex Matriarchs,yes,https://runescape.wiki/w/Elite_dracolich_armour,medium,"Route B only; listed as bulk log item, owning log not confirmed"
+Elite dracolich boots,Pernix gloves or Pernix boots,1,Nex,yes,https://runescape.wiki/w/Elite_dracolich_armour,medium,Route B only; broken down for 1 ranged praesulic essence; Nex log
+Greater Death's Swiftness ability codex,Codex of lost knowledge,1,"Zamorak, Lord of Chaos",yes,https://runescape.wiki/w/Greater_Death's_Swiftness_ability_codex,high,Zamorak log; Cywir components untracked
+Enhanced nightmare gauntlets,Nightmare gauntlets,1,Nightmare,yes,https://runescape.wiki/w/Enhanced_nightmare_gauntlets,high,Base item; Other Worlds slayer log
+Enhanced nightmare gauntlets,Glacor remnants,1000,Arch-Glacor (normal; Hard Mode);Glacyte,yes,https://runescape.wiki/w/Enhanced_nightmare_gauntlets,high,Arch-Glacor log
+Enhanced nightmare gauntlets,Leng artefact,1,Arch-Glacor (normal 5 mechanics; Hard Mode),yes,https://runescape.wiki/w/Enhanced_nightmare_gauntlets,high,Arch-Glacor log
+Enchantment of dread,Dark bow,2,Dark beast,yes,https://runescape.wiki/w/Enchantment_of_dread,high,Kandarin slayer log; slivers of power not on log; shifting components untracked
+Tectonic mask,Tectonic energy,14,Vorago (normal; Hard Mode),yes,https://runescape.wiki/w/Tectonic_armour,high,Vorago log; stones of binding are shop
+Tectonic robe top,Tectonic energy,42,Vorago (normal; Hard Mode),yes,https://runescape.wiki/w/Tectonic_armour,high,Vorago log; stones of binding are shop
+Tectonic robe bottom,Tectonic energy,28,Vorago (normal; Hard Mode),yes,https://runescape.wiki/w/Tectonic_armour,high,Vorago log; stones of binding are shop
+Grasping rune pouch (black),(none),,,no,https://runescape.wiki/w/Grasping_rune_pouch,high,Croesus flakes drop from Croesus but are not on Croesus log; threads/pouch are Runecrafting
+Grasping rune pouch (pink),(none),,,no,https://runescape.wiki/w/Grasping_rune_pouch,high,Croesus flakes drop from Croesus but are not on Croesus log; threads/pouch are Runecrafting
+Grasping rune pouch (blue),(none),,,no,https://runescape.wiki/w/Grasping_rune_pouch,high,Croesus flakes drop from Croesus but are not on Croesus log; threads/pouch are Runecrafting
+Reaver's ring,Heart of the Berserker,1,Orikalka;Pthentraken;Rathis;Osseous,yes,https://runescape.wiki/w/Reaver's_ring,high,Rex Matriarchs log; any matriarch
+Reaver's ring,Berserker ring,10,Dagannoth Rex,yes,https://runescape.wiki/w/Reaver's_ring,high,Dagannoth Kings log
+Fractured Staff of Armadyl,Fractured Armadyl symbol,1,"Kerapac, the bound (Hard Mode)",yes,https://runescape.wiki/w/Fractured_Staff_of_Armadyl,high,Kerapac log; Hard Mode only
+Fractured Staff of Armadyl,Fractured stabilisation gem,1,"Kerapac, the bound (Hard Mode)",yes,https://runescape.wiki/w/Fractured_Staff_of_Armadyl,high,Kerapac log; Hard Mode only
+Fractured Staff of Armadyl,Staff of Armadyl's fractured shaft,1,"Kerapac, the bound (Hard Mode)",yes,https://runescape.wiki/w/Fractured_Staff_of_Armadyl,high,Kerapac log; Hard Mode only
+Channeller's ring,Heart of the Seer,1,Pthentraken,yes,https://runescape.wiki/w/Channeller's_ring,high,Rex Matriarchs log
+Channeller's ring,Seers' ring,10,Dagannoth Prime,yes,https://runescape.wiki/w/Channeller's_ring,high,Dagannoth Kings log
+Greater Sunshine ability codex,Codex of lost knowledge,1,"Zamorak, Lord of Chaos",yes,https://runescape.wiki/w/Greater_Sunshine_ability_codex,high,Zamorak log; Cywir components untracked
+Enchantment of metaphysics,Static gloves,1,Automaton Guardian,yes,https://runescape.wiki/w/Enchantment_of_metaphysics,high,Kandarin slayer log; slivers of pain not on log; scrimshaws/energy untracked
+Cryptbloom helm,Cryptbloom helm (incomplete),1,Croesus,yes,https://runescape.wiki/w/Cryptbloom,high,Croesus log; Croesus flakes needed but not on log
+Cryptbloom top,Cryptbloom top (incomplete),1,Croesus,yes,https://runescape.wiki/w/Cryptbloom,high,Croesus log; Croesus flakes needed but not on log
+Cryptbloom bottoms,Cryptbloom bottoms (incomplete),1,Croesus,yes,https://runescape.wiki/w/Cryptbloom,high,Croesus log; Croesus flakes needed but not on log
+Cryptbloom gloves,Cryptbloom gloves (incomplete),1,Croesus,yes,https://runescape.wiki/w/Cryptbloom,high,Croesus log; Croesus flakes needed but not on log
+Cryptbloom boots,Cryptbloom boots (incomplete),1,Croesus,yes,https://runescape.wiki/w/Cryptbloom,high,Croesus log; Croesus flakes needed but not on log
