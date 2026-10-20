@@ -85,6 +85,12 @@ The problem investigation branch was not used. The stakeholder is a domain exper
 | D39: Elite dracolich pieces track only the Route A part (Vorkath's scale) | Confirmed decision | Justin, 2026-10-20 |
 | D40: Ranking counts a source once for each missing upgrade it drops at least one missing part of, not once per part | Confirmed decision | Justin, 2026-10-20 |
 | D41: Project 4 Status columns are Todo, Design, In progress, QA, Done | Fact (stakeholder) | Justin, 2026-10-20 |
+| D42: The Free Upgrades items (Amulet of the forsaken; igneous capes) are kept, shown in a separate "Free Upgrades" section under each style, outside PVME's order | Confirmed decision | Justin, 2026-10-20 |
+| D43: Parts needed in bulk (e.g. 10 Black stone hearts, 2,000 vital sparks) are tracked with a single "have all I need" mark, not a quantity | Confirmed decision | Justin, 2026-10-20 |
+| D44: Board workflow: a story moves to **Design**, where a page mockup is made and added to the story, before an engineering agent works on it | Confirmed decision | Justin, 2026-10-20 |
+| D45: The TokHaar capes for all four igneous capes come from the Fight Kiln. Pernix's quiver is excluded, because its fragments come from Elder Troves and aren't collection-log items | Confirmed decision | Justin, 2026-10-20 |
+| D46: Stories are published to the board first. Mockups are made during the Design step and attached to the story outside the ba-super-powers publishing skill, which never edits a published Issue | Confirmed decision | Justin, 2026-10-20 |
+| D47: ba-super-powers run records (publication manifests, payloads, attempt logs) are kept in `ba/runs/` of Justin's local clone (`C:\Users\saund\IronLog`), which is git-ignored and never committed | Confirmed decision | Justin, 2026-10-20 |
 | Parts of one assembled item usually all drop from a single source group (e.g. every Rex Matriarch drops all Savage spear parts) | Fact as reported by the stakeholder ("if I remember correctly"). Exceptions to be checked against parts research | Justin, 2026-10-20; `data/parts.csv` pending |
 | Wiki drop sources in the inventory are accurate | Assumption (evidence: wiki summaries; 10 items medium confidence) | Verify medium-confidence rows before release |
 
@@ -92,7 +98,6 @@ The problem investigation branch was not used. The stakeholder is a domain exper
 
 | Question | Blocking / nonblocking / optional for this output | Impact | Owner if known / evidence needed |
 |---|---|---|---|
-| Bulk parts (10 Black stone hearts, 10 Dagannoth King rings, 2,000 vital sparks): are they tracked by quantity entry (D15)? | Nonblocking for E1. Blocking for E2 part-tracking AC | E2 | Justin |
 | Medium-confidence drop sources (Vestments of havoc, First Necromancer set, Masterwork weapons, Annihilation's chest sources, Enchantment components, T80/T90 Necromancy materials) | Nonblocking. Data accuracy | Catalogue data | Verify on the wiki, possibly as a story |
 
 ## Readiness and next action

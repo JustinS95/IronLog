@@ -1,0 +1,138 @@
+style,section,stage,stage_name,entry_id,entry_order,pvme_entry_text,upgrade,inventory_item,alternative_group,alternative_option,pvme_notes,needed_in_style
+Melee,PVME order,1,Stage 1: Mid-game upgrades (High ROI),M1-01,1,Laniakea's Spear,Laniakea's spear,Laniakea's spear,,,,1
+Melee,PVME order,1,Stage 1: Mid-game upgrades (High ROI),M1-03,3,Abyssal Scourge + Dark Ice Sliver,Abyssal scourge,Abyssal scourge,,,,1
+Melee,PVME order,1,Stage 1: Mid-game upgrades (High ROI),M1-03,3,Abyssal Scourge + Dark Ice Sliver,Dark ice sliver,Dark ice sliver,,,,1
+Melee,PVME order,1,Stage 1: Mid-game upgrades (High ROI),M1-04,4,Scripture of Jas,Scripture of Jas,Scripture of Jas,,,,1
+Melee,PVME order,1,Stage 1: Mid-game upgrades (High ROI),M1-05,5,Jaws of the Abyss + Laceration Boots,Jaws of the Abyss,Jaws of the Abyss,,,,1
+Melee,PVME order,1,Stage 1: Mid-game upgrades (High ROI),M1-05,5,Jaws of the Abyss + Laceration Boots,Laceration boots,Laceration boots,,,,1
+Melee,PVME order,1,Stage 1: Mid-game upgrades (High ROI),M1-08,8,Greater Flurry,Greater Flurry ability codex,Greater Flurry ability codex,,,,1
+Melee,PVME order,1,Stage 1: Mid-game upgrades (High ROI),M1-09,9,Greater Barge,Greater Barge ability codex,Greater Barge ability codex,,,,1
+Melee,PVME order,1,Stage 1: Mid-game upgrades (High ROI),M1-10,10,Igneous Kal-Ket,Igneous Kal-Ket,Igneous Kal-Ket,,,listed as free,1
+Melee,PVME order,1,Stage 1: Mid-game upgrades (High ROI),M1-12,12,Flanking 4 on cheap offhand,Off-hand ripper claw,Off-hand ripper claw,,,if doing applicable content; ripper claw given as example,1
+Melee,PVME order,1,Stage 1: Mid-game upgrades (High ROI),M1-13,13,Vestments of Havoc Boots + Hood,Vestments of havoc boots,Vestments of havoc boots,,,,1
+Melee,PVME order,1,Stage 1: Mid-game upgrades (High ROI),M1-13,13,Vestments of Havoc Boots + Hood,Vestments of havoc hood,Vestments of havoc hood,,,,1
+Melee,PVME order,1,Stage 1: Mid-game upgrades (High ROI),M1-14,14,Vestments of Havoc Bottom,Vestments of havoc bottom,Vestments of havoc bottom,,,,1
+Melee,PVME order,2,Stage 2: End-game upgrades (Medium ROI),M2-03,3,Masterwork 2h sword,Masterwork 2h sword,Masterwork 2h sword,,,,1
+Melee,PVME order,2,Stage 2: End-game upgrades (Medium ROI),M2-05,5,Chaos Roar,Chaos Roar ability codex,Chaos Roar ability codex,,,,1
+Melee,PVME order,2,Stage 2: End-game upgrades (Medium ROI),M2-06,6,Vestment of Havoc Top,Vestments of havoc top,Vestments of havoc top,,,,1
+Melee,PVME order,2,Stage 2: End-game upgrades (Medium ROI),M2-07,7,Essence of Finality (Annihilation),Annihilation,Annihilation,,,,1
+Melee,PVME order,2,Stage 2: End-game upgrades (Medium ROI),M2-09,9,Scripture of Ful,Scripture of Ful,Scripture of Ful,,,,1
+Melee,PVME order,2,Stage 2: End-game upgrades (Medium ROI),M2-10,10,Enhanced Gloves of Passage + Enchantment of Agony,Enhanced gloves of passage,Enhanced gloves of passage,,,,1
+Melee,PVME order,2,Stage 2: End-game upgrades (Medium ROI),M2-10,10,Enhanced Gloves of Passage + Enchantment of Agony,Enchantment of agony,Enchantment of agony,,,,1
+Melee,PVME order,2,Stage 2: End-game upgrades (Medium ROI),M2-11,11,Greater Fury,Greater Fury ability codex,Greater Fury ability codex,,,,1
+Melee,PVME order,2,Stage 2: End-game upgrades (Medium ROI),M2-12,12,Essence of Finality plus one of Dragon claws / Varanus' mercy,Dragon claws,Dragon claws,M2-12,A,alternative choice,1
+Melee,PVME order,2,Stage 2: End-game upgrades (Medium ROI),M2-12,12,Essence of Finality plus one of Dragon claws / Varanus' mercy,Varanus' mercy,Varanus' mercy,M2-12,B,alternative choice,1
+Melee,PVME order,2,Stage 2: End-game upgrades (Medium ROI),M2-13,13,Champion's Ring,Champion's ring,Champion's ring,,,,1
+Melee,PVME order,2,Stage 2: End-game upgrades (Medium ROI),M2-14,14,Ek-ZekKil,Ek-ZekKil,Ek-ZekKil,,,,1
+Melee,PVME order,3,Stage 3: Best-in-slot Upgrades (Low ROI),M3-01,1,Divert,Divert ability codex,Divert ability codex,,,,1
+Melee,PVME order,3,Stage 3: Best-in-slot Upgrades (Low ROI),M3-02,2,Shard of Genesis Essence (use on EZK),Shard of Genesis Essence – Ek-ZekKil,Shard of Genesis Essence,,,,1
+Melee,PVME order,3,Stage 3: Best-in-slot Upgrades (Low ROI),M3-03,3,Upgrade prayers depending on content,Eclipsed Soul prayer codex,Eclipsed Soul prayer codex,M3-03,A,alternative choice,1
+Melee,PVME order,3,Stage 3: Best-in-slot Upgrades (Low ROI),M3-03,3,Upgrade prayers depending on content,Divine Rage prayer codex,Divine Rage prayer codex,M3-03,A,alternative choice,1
+Melee,PVME order,3,Stage 3: Best-in-slot Upgrades (Low ROI),M3-03,3,Upgrade prayers depending on content,Malevolence,Malevolence,M3-03,B,alternative choice,1
+Melee,PVME order,3,Stage 3: Best-in-slot Upgrades (Low ROI),M3-04,4,Nodon spike harness,Nodon spike harness,Nodon spike harness,,,,1
+Melee,PVME order,3,Stage 3: Best-in-slot Upgrades (Low ROI),M3-05,5,Enchantment of Heroism,Enchantment of heroism,Enchantment of heroism,,,Champion's ring upgrade,1
+Melee,PVME order,3,Stage 3: Best-in-slot Upgrades (Low ROI),M3-08,8,Cinderbanes,Cinderbane gloves,Cinderbane gloves,,,,1
+Melee,PVME order,3,Stage 3: Best-in-slot Upgrades (Low ROI),M3-09,9,Zaros Godsword,Zaros godsword,Zaros godsword,,,,1
+Melee,PVME order,3,Stage 3: Best-in-slot Upgrades (Low ROI),M3-10,10,Dark Sliver of Leng,Dark Sliver of Leng,Dark Sliver of Leng,,,,1
+Melee,PVME order,3,Stage 3: Best-in-slot Upgrades (Low ROI),M3-11,11,Dark Shard of Leng,Dark Shard of Leng,Dark Shard of Leng,,,,1
+Melee,PVME order,3,Stage 3: Best-in-slot Upgrades (Low ROI),M3-13,13,Shard of Genesis Essence (use on Leng),Shard of Genesis Essence – Dark Shard of Leng,Shard of Genesis Essence,,,,1
+Melee,PVME order,3,Stage 3: Best-in-slot Upgrades (Low ROI),M3-13,13,Shard of Genesis Essence (use on Leng),Shard of Genesis Essence – Dark Sliver of Leng,Shard of Genesis Essence,,,,1
+Melee,PVME order,3,Stage 3: Best-in-slot Upgrades (Low ROI),M3-14,14,Limitless,Limitless ability codex,Limitless ability codex,,,,1
+Ranged,PVME order,1,Stage 1: No Real Variance Based on Content,R1-03,3,T90 Sirenic Armour + Nightmare Gauntlets + Fleeting Boots with Entry Level Perks,Sirenic mask,Sirenic mask,,,,1
+Ranged,PVME order,1,Stage 1: No Real Variance Based on Content,R1-03,3,T90 Sirenic Armour + Nightmare Gauntlets + Fleeting Boots with Entry Level Perks,Sirenic hauberk,Sirenic hauberk,,,,1
+Ranged,PVME order,1,Stage 1: No Real Variance Based on Content,R1-03,3,T90 Sirenic Armour + Nightmare Gauntlets + Fleeting Boots with Entry Level Perks,Sirenic chaps,Sirenic chaps,,,,1
+Ranged,PVME order,1,Stage 1: No Real Variance Based on Content,R1-03,3,T90 Sirenic Armour + Nightmare Gauntlets + Fleeting Boots with Entry Level Perks,Nightmare gauntlets,Nightmare gauntlets,,,,1
+Ranged,PVME order,1,Stage 1: No Real Variance Based on Content,R1-03,3,T90 Sirenic Armour + Nightmare Gauntlets + Fleeting Boots with Entry Level Perks,Fleeting boots,Fleeting boots,,,,1
+Ranged,PVME order,1,Stage 1: No Real Variance Based on Content,R1-04,4,Cinderbane Gloves,Cinderbane gloves,Cinderbane gloves,,,skip if mostly poison-immune content,1
+Ranged,PVME order,1,Stage 1: No Real Variance Based on Content,R1-05,5,Scripture of Jas,Scripture of Jas,Scripture of Jas,,,,1
+Ranged,PVME order,2,Stage 2: Some Variance Based on Content/Wealth,R2-01,1,Divert,Divert ability codex,Divert ability codex,,,,1
+Ranged,PVME order,2,Stage 2: Some Variance Based on Content/Wealth,R2-02,2,Greater Ricochet,Greater Ricochet ability codex,Greater Ricochet ability codex,,,,1
+Ranged,PVME order,2,Stage 2: Some Variance Based on Content/Wealth,R2-03,3,Gloomfire Bow,Gloomfire bow,Gloomfire bow,,,add into Essence of Finality,1
+Ranged,PVME order,2,Stage 2: Some Variance Based on Content/Wealth,R2-04,4,Bow of the Last Guardian,Bow of the Last Guardian,Bow of the Last Guardian,,,,1
+Ranged,PVME order,2,Stage 2: Some Variance Based on Content/Wealth,R2-05,5,Eldritch Crossbow (Essence of Finality),Eldritch crossbow,Eldritch crossbow,,,,1
+Ranged,PVME order,2,Stage 2: Some Variance Based on Content/Wealth,R2-06,6,Seren Godbow (Essence of Finality),Seren godbow,Seren godbow,,,,1
+Ranged,PVME order,2,Stage 2: Some Variance Based on Content/Wealth,R2-09,9,T90 Dracolich Armour,Dracolich coif,Dracolich coif,,,,1
+Ranged,PVME order,2,Stage 2: Some Variance Based on Content/Wealth,R2-09,9,T90 Dracolich Armour,Dracolich hauberk,Dracolich hauberk,,,,1
+Ranged,PVME order,2,Stage 2: Some Variance Based on Content/Wealth,R2-09,9,T90 Dracolich Armour,Dracolich chaps,Dracolich chaps,,,,1
+Ranged,PVME order,2,Stage 2: Some Variance Based on Content/Wealth,R2-09,9,T90 Dracolich Armour,Dracolich vambraces,Dracolich vambraces,,,,1
+Ranged,PVME order,2,Stage 2: Some Variance Based on Content/Wealth,R2-09,9,T90 Dracolich Armour,Dracolich boots,Dracolich boots,,,,1
+Ranged,PVME order,2,Stage 2: Some Variance Based on Content/Wealth,R2-10,10,Stalker's Ring + Enchantment of Shadows + Biting 4,Stalker's ring,Stalker's ring,,,,1
+Ranged,PVME order,2,Stage 2: Some Variance Based on Content/Wealth,R2-10,10,Stalker's Ring + Enchantment of Shadows + Biting 4,Enchantment of shadows,Enchantment of shadows,,,,1
+Ranged,PVME order,2,Stage 2: Some Variance Based on Content/Wealth,R2-11,11,T92 Elite Dracolich Armour,Elite dracolich coif,Elite dracolich coif,,,upgrade full set at once,1
+Ranged,PVME order,2,Stage 2: Some Variance Based on Content/Wealth,R2-11,11,T92 Elite Dracolich Armour,Elite dracolich hauberk,Elite dracolich hauberk,,,upgrade full set at once,1
+Ranged,PVME order,2,Stage 2: Some Variance Based on Content/Wealth,R2-11,11,T92 Elite Dracolich Armour,Elite dracolich chaps,Elite dracolich chaps,,,upgrade full set at once,1
+Ranged,PVME order,2,Stage 2: Some Variance Based on Content/Wealth,R2-11,11,T92 Elite Dracolich Armour,Elite dracolich vambraces,Elite dracolich vambraces,,,upgrade full set at once,1
+Ranged,PVME order,2,Stage 2: Some Variance Based on Content/Wealth,R2-11,11,T92 Elite Dracolich Armour,Elite dracolich boots,Elite dracolich boots,,,upgrade full set at once,1
+Ranged,PVME order,2,Stage 2: Some Variance Based on Content/Wealth,R2-12,12,Scripture of Ful,Scripture of Ful,Scripture of Ful,,,,1
+Ranged,PVME order,3,Stage 3: Pretty Low ROI,R3-01,1,Greater Death's Swiftness,Greater Death's Swiftness ability codex,Greater Death's Swiftness ability codex,,,GE or crafted,1
+Ranged,PVME order,3,Stage 3: Pretty Low ROI,R3-02,2,Enhanced Nightmare Gauntlets + Enchantment of Dread,Enhanced nightmare gauntlets,Enhanced nightmare gauntlets,,,,1
+Ranged,PVME order,3,Stage 3: Pretty Low ROI,R3-02,2,Enhanced Nightmare Gauntlets + Enchantment of Dread,Enchantment of dread,Enchantment of dread,,,,1
+Ranged,PVME order,3,Stage 3: Pretty Low ROI,R3-03,3,Shard of Genesis Essence (use on BOLG),Shard of Genesis Essence – Bow of the Last Guardian,Shard of Genesis Essence,,,,1
+Ranged,PVME order,3,Stage 3: Pretty Low ROI,R3-04,4,Desolation,Desolation,Desolation,,,,1
+Ranged,PVME order,3,Stage 3: Pretty Low ROI,R3-05,5,Erethdor's Grimoire,Erethdor's grimoire,Erethdor's grimoire,,,,1
+Ranged,PVME order,3,Stage 3: Pretty Low ROI,R3-06,6,Corruption Shot,Corruption Shot ability codex,Corruption Shot ability codex,,,,1
+Ranged,PVME order,3,Stage 3: Pretty Low ROI,R3-07,7,Limitless,Limitless ability codex,Limitless ability codex,,,,1
+Magic,PVME order,1,Stage 1: No Real Variance Based on Content,G1-03,3,Greater Concentrated Blast,Greater Concentrated Blast ability codex,Greater Concentrated Blast ability codex,,,,1
+Magic,PVME order,1,Stage 1: No Real Variance Based on Content,G1-05,5,Kerapac's Wrist Wraps + Blast Diffusion Boots,Kerapac's wrist wraps,Kerapac's wrist wraps,,,,1
+Magic,PVME order,1,Stage 1: No Real Variance Based on Content,G1-05,5,Kerapac's Wrist Wraps + Blast Diffusion Boots,Blast diffusion boots,Blast diffusion boots,,,,1
+Magic,PVME order,1,Stage 1: No Real Variance Based on Content,G1-06,6,Tectonic armour,Tectonic mask,Tectonic mask,,,,1
+Magic,PVME order,1,Stage 1: No Real Variance Based on Content,G1-06,6,Tectonic armour,Tectonic robe top,Tectonic robe top,,,,1
+Magic,PVME order,1,Stage 1: No Real Variance Based on Content,G1-06,6,Tectonic armour,Tectonic robe bottom,Tectonic robe bottom,,,,1
+Magic,PVME order,1,Stage 1: No Real Variance Based on Content,G1-07,7,Cinderbane Gloves,Cinderbane gloves,Cinderbane gloves,,,skip if mostly poison-immune content,1
+Magic,PVME order,1,Stage 1: No Real Variance Based on Content,G1-08,8,Scripture of Jas,Scripture of Jas,Scripture of Jas,,,,1
+Magic,PVME order,1,Stage 1: No Real Variance Based on Content,G1-09,9,Roar of Awakening,Roar of Awakening,Roar of Awakening,,,,1
+Magic,PVME order,1,Stage 1: No Real Variance Based on Content,G1-10,10,Ode to Deceit,Ode to Deceit,Ode to Deceit,,,,1
+Magic,PVME order,1,Stage 1: No Real Variance Based on Content,G1-12,12,Grasping Rune Pouches,Grasping rune pouch (black),Grasping rune pouch (black),,,,1
+Magic,PVME order,1,Stage 1: No Real Variance Based on Content,G1-12,12,Grasping Rune Pouches,Grasping rune pouch (pink),Grasping rune pouch (pink),,,,1
+Magic,PVME order,1,Stage 1: No Real Variance Based on Content,G1-12,12,Grasping Rune Pouches,Grasping rune pouch (blue),Grasping rune pouch (blue),,,,1
+Magic,PVME order,2,Stage 2: Some Variance Based on Content/Wealth,G2-02,2,Reaver's Ring,Reaver's ring,Reaver's ring,,,only if hit chance stays >= 97%,1
+Magic,PVME order,2,Stage 2: Some Variance Based on Content/Wealth,G2-04,4,Fractured Staff of Armadyl + Erethdor's Grimoire,Erethdor's grimoire,Erethdor's grimoire,,,,1
+Magic,PVME order,2,Stage 2: Some Variance Based on Content/Wealth,G2-04,4,Fractured Staff of Armadyl + Erethdor's Grimoire,Fractured Staff of Armadyl,Fractured Staff of Armadyl,,,,1
+Magic,PVME order,2,Stage 2: Some Variance Based on Content/Wealth,G2-05,5,Divert,Divert ability codex,Divert ability codex,,,,1
+Magic,PVME order,2,Stage 2: Some Variance Based on Content/Wealth,G2-07,7,Tumeken's resplendence set,Mask of Tumeken's resplendence,Mask of Tumeken's resplendence,,,,1
+Magic,PVME order,2,Stage 2: Some Variance Based on Content/Wealth,G2-07,7,Tumeken's resplendence set,Robe top of Tumeken's resplendence,Robe top of Tumeken's resplendence,,,,1
+Magic,PVME order,2,Stage 2: Some Variance Based on Content/Wealth,G2-07,7,Tumeken's resplendence set,Robe bottom of Tumeken's resplendence,Robe bottom of Tumeken's resplendence,,,,1
+Magic,PVME order,2,Stage 2: Some Variance Based on Content/Wealth,G2-07,7,Tumeken's resplendence set,Gloves of Tumeken's resplendence,Gloves of Tumeken's resplendence,,,,1
+Magic,PVME order,2,Stage 2: Some Variance Based on Content/Wealth,G2-07,7,Tumeken's resplendence set,Boots of Tumeken's resplendence,Boots of Tumeken's resplendence,,,,1
+Magic,PVME order,2,Stage 2: Some Variance Based on Content/Wealth,G2-08,8,Channeller's Ring,Channeller's ring,Channeller's ring,,,,1
+Magic,PVME order,3,Stage 3: Pretty Low ROI,G3-01,1,Shard of Genesis Essence (use on FSOA),Shard of Genesis Essence – Fractured Staff of Armadyl,Shard of Genesis Essence,,,,1
+Magic,PVME order,3,Stage 3: Pretty Low ROI,G3-02,2,Eclipsed Soul + Divine Rage,Eclipsed Soul prayer codex,Eclipsed Soul prayer codex,,,,1
+Magic,PVME order,3,Stage 3: Pretty Low ROI,G3-02,2,Eclipsed Soul + Divine Rage,Divine Rage prayer codex,Divine Rage prayer codex,,,,1
+Magic,PVME order,3,Stage 3: Pretty Low ROI,G3-03,3,Affliction,Affliction,Affliction,,,prayer upgrade by content,1
+Magic,PVME order,3,Stage 3: Pretty Low ROI,G3-04,4,Greater Sunshine,Greater Sunshine ability codex,Greater Sunshine ability codex,,,GE or crafted,1
+Magic,PVME order,3,Stage 3: Pretty Low ROI,G3-05,5,Greater Chain,Greater Chain ability codex,Greater Chain ability codex,,,Elite Dungeons / Zuk also need Caroming 4 switch,1
+Magic,PVME order,3,Stage 3: Pretty Low ROI,G3-06,6,Enchantment of Metaphysics,Enchantment of metaphysics,Enchantment of metaphysics,,,,1
+Magic,PVME order,3,Stage 3: Pretty Low ROI,G3-07,7,Magma Tempest,Magma Tempest ability codex,Magma Tempest ability codex,,,,1
+Magic,PVME order,3,Stage 3: Pretty Low ROI,G3-08,8,Corruption Blast,Corruption Blast ability codex,Corruption Blast ability codex,,,,1
+Magic,PVME order,3,Stage 3: Pretty Low ROI,G3-09,9,Limitless,Limitless ability codex,Limitless ability codex,,,,1
+Magic,PVME order,3,Stage 3: Pretty Low ROI,G3-11,11,Legatus' Emberstaff,Legatus's Emberstaff,Legatus's Emberstaff,,,replaces Iban's staff in EoF,1
+Magic,PVME order,3,Stage 3: Pretty Low ROI,G3-12,12,Cryptbloom set,Cryptbloom helm,Cryptbloom helm,,,skip if not doing select high-enrage bosses,1
+Magic,PVME order,3,Stage 3: Pretty Low ROI,G3-12,12,Cryptbloom set,Cryptbloom top,Cryptbloom top,,,skip if not doing select high-enrage bosses,1
+Magic,PVME order,3,Stage 3: Pretty Low ROI,G3-12,12,Cryptbloom set,Cryptbloom bottoms,Cryptbloom bottoms,,,skip if not doing select high-enrage bosses,1
+Magic,PVME order,3,Stage 3: Pretty Low ROI,G3-12,12,Cryptbloom set,Cryptbloom gloves,Cryptbloom gloves,,,skip if not doing select high-enrage bosses,1
+Magic,PVME order,3,Stage 3: Pretty Low ROI,G3-12,12,Cryptbloom set,Cryptbloom boots,Cryptbloom boots,,,skip if not doing select high-enrage bosses,1
+Necromancy,PVME order,1,Stage 1: No Real Variance Based on Content,N1-06,6,Scripture of Jas,Scripture of Jas,Scripture of Jas,,,,1
+Necromancy,PVME order,1,Stage 1: No Real Variance Based on Content,N1-07,7,Cinderbane Gloves,Cinderbane gloves,Cinderbane gloves,,,skip if mostly poison-immune content,1
+Necromancy,PVME order,2,Stage 2: Some Variance Based on Content/Wealth,N2-04,4,The First Necromancer set,Crown of the First Necromancer,Crown of the First Necromancer,,,,1
+Necromancy,PVME order,2,Stage 2: Some Variance Based on Content/Wealth,N2-04,4,The First Necromancer set,Robe top of the First Necromancer,Robe top of the First Necromancer,,,,1
+Necromancy,PVME order,2,Stage 2: Some Variance Based on Content/Wealth,N2-04,4,The First Necromancer set,Robe bottom of the First Necromancer,Robe bottom of the First Necromancer,,,,1
+Necromancy,PVME order,2,Stage 2: Some Variance Based on Content/Wealth,N2-04,4,The First Necromancer set,Hand wrap of the First Necromancer,Hand wrap of the First Necromancer,,,,1
+Necromancy,PVME order,2,Stage 2: Some Variance Based on Content/Wealth,N2-04,4,The First Necromancer set,Foot wraps of the First Necromancer,Foot wraps of the First Necromancer,,,,1
+Necromancy,PVME order,2,Stage 2: Some Variance Based on Content/Wealth,N2-05,5,Occultist's Ring,Occultist's ring,Occultist's ring,,,,1
+Necromancy,PVME order,2,Stage 2: Some Variance Based on Content/Wealth,N2-06,6,Omni Guard,Omni guard,Omni guard,,,,1
+Necromancy,PVME order,2,Stage 2: Some Variance Based on Content/Wealth,N2-07,7,Soulbound Lantern,Soulbound lantern,Soulbound lantern,,,,2
+Necromancy,PVME order,2,Stage 2: Some Variance Based on Content/Wealth,N2-08,8,Scripture of Ful,Scripture of Ful,Scripture of Ful,,,,1
+Necromancy,PVME order,2,Stage 2: Some Variance Based on Content/Wealth,N2-10,10,Divert,Divert ability codex,Divert ability codex,,,,1
+Necromancy,PVME order,3,Stage 3: Pretty Low ROI,N3-02,2,Shard of Genesis Essence (upgrade Omni Guard + Soulbound Lantern),Shard of Genesis Essence – Omni guard,Shard of Genesis Essence,,,,1
+Necromancy,PVME order,3,Stage 3: Pretty Low ROI,N3-02,2,Shard of Genesis Essence (upgrade Omni Guard + Soulbound Lantern),Shard of Genesis Essence – Soulbound lantern,Shard of Genesis Essence,,,,1
+Necromancy,PVME order,3,Stage 3: Pretty Low ROI,N3-03,3,Ruination,Ruination,Ruination,,,,1
+Necromancy,PVME order,3,Stage 3: Pretty Low ROI,N3-04,4,Devourer's Nexus,Devourer's nexus,Devourer's nexus,,,,1
+Necromancy,PVME order,3,Stage 3: Pretty Low ROI,N3-05,5,Upgrade to T100 Flanking switch,Soulbound lantern,Soulbound lantern,,,,2
+Necromancy,PVME order,3,Stage 3: Pretty Low ROI,N3-06,6,Misalionar's Death Mask,Misalionar's death mask,Misalionar's death mask,,,,1
+Melee,Free Upgrades,,,FU-T2,,,Amulet of the forsaken (for Berserker's Fury),Amulet of the forsaken (for Berserker's Fury),,,,1
+Ranged,Free Upgrades,,,FU-T2,,,Amulet of the forsaken (for Berserker's Fury),Amulet of the forsaken (for Berserker's Fury),,,,1
+Ranged,Free Upgrades,,,FU-O1,,,Igneous Kal-Xil,Igneous Kal-Xil,,,,1
+Magic,Free Upgrades,,,FU-T2,,,Amulet of the forsaken (for Berserker's Fury),Amulet of the forsaken (for Berserker's Fury),,,,1
+Magic,Free Upgrades,,,FU-O1,,,Igneous Kal-Mej,Igneous Kal-Mej,,,,1
+Necromancy,Free Upgrades,,,FU-T2,,,Amulet of the forsaken (for Berserker's Fury),Amulet of the forsaken (for Berserker's Fury),,,,1
+Necromancy,Free Upgrades,,,FU-O1,,,Igneous Kal-Mor,Igneous Kal-Mor,,,,1
