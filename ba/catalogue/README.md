@@ -2,7 +2,7 @@
 
 `ironlog_catalogue_v1.csv` is the approved list of what IronLog shows for each combat style, one row per upgrade instance. It's the expected result for IL-E1-01, and it resolves review finding F-01.
 
-Built on 2026-10-20 from `ba/discovery/data/` (PVME entries, the reviewed inventory and stakeholder decisions D1–D44). It covers 112 tracked items, which appear 138 times across the four styles.
+Built on 2026-10-20 from `ba/discovery/data/` (PVME entries, the reviewed inventory and stakeholder decisions D1–D44). It covers 111 tracked items, which appear 137 times across the four styles.
 
 | Column | Meaning |
 |---|---|

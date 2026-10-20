@@ -88,6 +88,8 @@ The problem investigation branch was not used. The stakeholder is a domain exper
 | D42: The Free Upgrades items (Amulet of the forsaken; igneous capes) are kept, shown in a separate "Free Upgrades" section under each style, outside PVME's order | Confirmed decision | Justin, 2026-10-20 |
 | D43: Parts needed in bulk (e.g. 10 Black stone hearts, 2,000 vital sparks) are tracked with a single "have all I need" mark, not a quantity | Confirmed decision | Justin, 2026-10-20 |
 | D44: Board workflow: a story moves to **Design**, where a page mockup is made and added to the story, before an engineering agent works on it | Confirmed decision | Justin, 2026-10-20 |
+| D45: The TokHaar capes for all four igneous capes come from the Fight Kiln. Pernix's quiver is excluded, because its fragments come from Elder Troves and aren't collection-log items | Confirmed decision | Justin, 2026-10-20 |
+| D46: Stories are published to the board first. Mockups are made during the Design step and attached to the story outside the ba-super-powers publishing skill, which never edits a published Issue | Confirmed decision | Justin, 2026-10-20 |
 | Parts of one assembled item usually all drop from a single source group (e.g. every Rex Matriarch drops all Savage spear parts) | Fact as reported by the stakeholder ("if I remember correctly"). Exceptions to be checked against parts research | Justin, 2026-10-20; `data/parts.csv` pending |
 | Wiki drop sources in the inventory are accurate | Assumption (evidence: wiki summaries; 10 items medium confidence) | Verify medium-confidence rows before release |
 

@@ -26,7 +26,7 @@ An ironman can only get an upgrade by going to its source. Showing the sources, 
 - [ ] 7. Each upgrade links to its RuneScape Wiki page. IronLog credits the RuneScape Wiki as the source of drop information and names the CC BY-NC-SA 3.0 license.
 
 # Open Questions
-1. **Data with medium or low confidence** (marked in the data's `confidence` column), for example Vestments of havoc, Pernix's quiver fragments and the TokHaar capes for Kal-Xil, Kal-Mej and Kal-Mor. These are shown as researched. Verifying them is tracked separately and doesn't block this story.
+1. **Data with medium or low confidence** (marked in the data's `confidence` column), for example Vestments of havoc and the Masterwork 2h sword. These are shown as researched. Verifying them is tracked separately and doesn't block this story.
 
 # Traceability
 | Requirement/source | AC | Status/decision |

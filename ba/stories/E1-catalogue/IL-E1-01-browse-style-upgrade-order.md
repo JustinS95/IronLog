@@ -11,7 +11,7 @@ status: draft
 **I want to** see a combat style's upgrades in PVME's recommended order,
 **so that** I know which upgrades to work toward for that style.
 
-The upgrade order comes from PVME's four upgrade-order pages (D1), taken from `pvme/pvme-guides` at commit `7a1f15f`. **The expected list for each style is [`ba/catalogue/ironlog_catalogue_v1.csv`](../../catalogue/ironlog_catalogue_v1.csv)** (112 tracked items appearing 138 times across the four styles; columns explained in the [catalogue README](../../catalogue/README.md)). PVME data is used under CC BY-NC-SA 4.0, with no commercial use (D9).
+The upgrade order comes from PVME's four upgrade-order pages (D1), taken from `pvme/pvme-guides` at commit `7a1f15f`. **The expected list for each style is [`ba/catalogue/ironlog_catalogue_v1.csv`](../../catalogue/ironlog_catalogue_v1.csv)** (111 tracked items appearing 137 times across the four styles; columns explained in the [catalogue README](../../catalogue/README.md)). PVME data is used under CC BY-NC-SA 4.0, with no commercial use (D9).
 
 # Business Value
 PVME's lists are the community's reference for gear progression, but they're written for main accounts and include things an ironman can't get from a kill. This gives an ironman the same order, limited to items they can actually collect.

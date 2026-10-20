@@ -69,17 +69,17 @@ Severity: Low (process). D44 adds a Design step, where a mockup is added to the 
 | ID | Question | Classification | Owner | Affected | Status |
 |---|---|---|---|---|---|
 | R-01 | Produce the approved per-style catalogue file (F-01) | BA artifact | BA | IL-E1-01, IL-E1-02, E3, E4 | **Done**: `ba/catalogue/ironlog_catalogue_v1.csv` |
-| R-02 | What the player sees for a part whose source is unknown (F-02) | Stakeholder | Justin | IL-E1-02 AC 1 | Pending |
+| R-02 | What the player sees for a part whose source is unknown (F-02) | Stakeholder | Justin | IL-E1-02 AC 1 | **Resolved by D45**: TokHaar-Kal-Mor comes from the Fight Kiln; Pernix's quiver excluded. No unknown sources remain in the catalogue |
 
 ## Readiness
 
 - **Reviewed scope:** both E1 stories and their data. No contradictions with confirmed decisions were found.
 - **IL-E1-01:** ready within reviewed scope. R-01 is done and the story now names the catalogue file as its expected list.
-- **IL-E1-02:** ready, except AC 1 for two parts, which waits on R-02.
+- **IL-E1-02:** ready within reviewed scope (R-02 resolved).
 - **Publishing:** the stories can be published as Issues in Todo once R-01 and R-02 are resolved. The Design step (D44) follows before engineering.
 
 ## Re-review after changes
 
 - **R-01 applied.** While building the catalogue file, one more data defect turned up: "The First Necromancer armour set" was a single inventory row, which conflicts with D30 (per piece). It's now split into its five pieces (Crown, Robe top, Robe bottom, Hand wrap, Foot wraps of the First Necromancer; wiki-confirmed drops from Rasial).
 - **IL-E1-01 updated.** AC 1 now points to the catalogue file, and AC 5 keeps the exclusions as examples (F-03). Rechecked AC 7 (Soulbound lantern ×2) and AC 8 (seven Genesis instances) against the file; both match.
-- **Still pending:** R-02.
+- **R-02 resolved (D45).** The catalogue now has 137 rows, after Pernix's quiver was removed. A recheck of `parts.csv` for the remaining catalogue items found no unknown sources.
