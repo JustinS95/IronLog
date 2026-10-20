@@ -91,6 +91,23 @@ The problem investigation branch was not used. The stakeholder is a domain exper
 | D45: The TokHaar capes for all four igneous capes come from the Fight Kiln. Pernix's quiver is excluded, because its fragments come from Elder Troves and aren't collection-log items | Confirmed decision | Justin, 2026-10-20 |
 | D46: Stories are published to the board first. Mockups are made during the Design step and attached to the story outside the ba-super-powers publishing skill, which never edits a published Issue | Confirmed decision | Justin, 2026-10-20 |
 | D47: ba-super-powers run records (publication manifests, payloads, attempt logs) are kept in `ba/runs/` of Justin's local clone (`C:\Users\saund\IronLog`), which is git-ignored and never committed | Confirmed decision | Justin, 2026-10-20 |
+| D48: The player can unmark anything they marked by mistake | Confirmed decision | Justin, 2026-10-20 |
+| D49: An item on several style lists is marked once and shows as owned in every style | Confirmed decision | Justin, 2026-10-20 |
+| D50: The "shard applied" checkbox for a T95 weapon is shown only once that weapon is marked owned | Confirmed decision | Justin, 2026-10-20 |
+| D51: No "clear all progress" option in v1 | Confirmed decision | Justin, 2026-10-20 |
+| D52: A partly collected upgrade shows its part progress (e.g. "3/4 parts") and still counts as missing | Confirmed decision | Justin, 2026-10-20 |
+| D53: The next upgrade in a style is the first missing upgrade in PVME order. The Free Upgrades section is never "next" | Confirmed decision | Justin, 2026-10-20 |
+| D54: A "one of" group is done when any one option is owned (pending the D38 revisit) | Confirmed decision | Justin, 2026-10-20 |
+| D55: The source ranking counts Free Upgrades items. A "one of" group stops counting once any option is owned | Confirmed decision | Justin, 2026-10-20 |
+| D56: Sources with no missing upgrades are hidden from the ranking | Confirmed decision | Justin, 2026-10-20 |
+| D57: The player can see which missing upgrades make up a source's count | Confirmed decision | Justin, 2026-10-20 |
+| D58: Not used (numbering gap left when D59–D64 were recorded; kept so published Issues #8–#12 stay consistent) | — | — |
+| D59: Unmarking keeps items and parts in step. Unmarking an upgrade unmarks its parts. Unmarking any part makes the upgrade missing. Unmarking a T95 weapon clears its "shard applied" | Confirmed decision | Justin, 2026-10-20 |
+| D60: Parts are tracked separately for each upgrade | Confirmed decision | Justin, 2026-10-20 |
+| D61: In the ranking tie-break, Free Upgrades items count as earlier than any PVME-order upgrade | Confirmed decision | Justin, 2026-10-20 |
+| D62: IronLog shows a short note that progress is saved only in this browser | Confirmed decision | Justin, 2026-10-20 |
+| D63: Source grouping: Rex Matriarchs and Dagannoth Kings are one source each. Zamorakian Undercity creatures and Sophanem Slayer Dungeon creatures are one group each. Sanctum of Rebirth bosses are listed individually. The Strange Old Man casket is dropped, so the Amulet of the forsaken shows only Barrows Brothers. Glacytes count as Arch-Glacor | Confirmed decision | Justin, 2026-10-20 |
+| D64: ba-super-powers gets a bounded capability to update published GitHub Issues (title/body, with exact approval, baseline check and read-back), built after E2–E4 are published. Its first use is correcting #5's source data reference | Confirmed decision | Justin, 2026-10-20 |
 | Parts of one assembled item usually all drop from a single source group (e.g. every Rex Matriarch drops all Savage spear parts) | Fact as reported by the stakeholder ("if I remember correctly"). Exceptions to be checked against parts research | Justin, 2026-10-20; `data/parts.csv` pending |
 | Wiki drop sources in the inventory are accurate | Assumption (evidence: wiki summaries; 10 items medium confidence) | Verify medium-confidence rows before release |
 
