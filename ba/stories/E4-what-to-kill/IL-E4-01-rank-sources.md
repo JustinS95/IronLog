@@ -9,7 +9,7 @@ github_issue: 12
 
 # Summary
 **As an** ironman player,
-**I want to** see every boss, slayer creature and heist ranked by how many of my missing upgrades it can give me,
+**I want to** see every boss, slayer creature, heist, minigame and slayer reward ranked by how many of my missing upgrades it can give me,
 **so that** I can decide what to kill next.
 
 Sources come from IL-E1-02 (#5): an upgrade's own drop sources plus the sources of its tracked parts. The canonical source list is [`ba/catalogue/ironlog_sources_v1.csv`](../../catalogue/ironlog_sources_v1.csv) (76 sources). [`ba/catalogue/ironlog_item_sources_v1.csv`](../../catalogue/ironlog_item_sources_v1.csv) maps each upgrade, or each of its parts, to those sources. Owned state comes from E2. This is the toggle described in D11.
@@ -19,10 +19,10 @@ This is IronLog's core recommendation. It turns the player's collection into one
 
 # Acceptance Criteria
 - [ ] 1. From a style list, the player can switch to a single ranked list of sources covering all styles, and switch back.
-- [ ] 2. A source's count is the number of missing upgrades that the source drops itself, or drops at least one missing part of. Each missing upgrade counts once per source, however many of its parts that source drops. Example: Rex Matriarchs count Laniakea's spear once, even with all four spear parts missing.
+- [ ] 2. A source's count is the number of missing upgrades that the source drops itself, or drops at least one missing part of. Each missing upgrade counts once per source, however many of its parts that source drops. Example: Rex Matriarchs count Laniakea's spear once, even with all four spear parts missing. The Shard of Genesis Essence upgrades count as one upgrade for a source, however many weapons still need a shard, and the source shows which weapons need one.
 - [ ] 3. An upgrade listed under several styles counts once in a source's total.
 - [ ] 4. Each source shows how many of its counted upgrades belong to each style. An upgrade listed under several styles appears in each of those styles' numbers, so the per-style numbers can add up to more than the total.
-- [ ] 5. Free Upgrades items count. A "one of" group counts only while none of its options is owned. Once one is owned, none of the group's options count for any source.
+- [ ] 5. Free Upgrades items count. A "one of" group counts only while none of its options is owned. Once one option is fully owned (all of its upgrades), none of the group's options count for any source.
 - [ ] 6. Sources are listed from the highest count to the lowest. When counts are equal, the source that drops the earliest missing upgrade comes first. Free Upgrades items count as earlier than any PVME-order upgrade. After that, upgrades are compared by stage, then position within the stage. Remaining ties are ordered alphabetically by source name.
 - [ ] 7. Hard Mode variants are separate sources. An upgrade or part that drops only in Hard Mode counts only for the Hard Mode source.
 - [ ] 8. Sources with no missing upgrades aren't listed.
@@ -33,12 +33,20 @@ This is IronLog's core recommendation. It turns the player's collection into one
 | Requirement/source | AC | Status/decision |
 |---|---|---|
 | D11 toggle to sources ranked by total | 1 | Confirmed |
-| D40 once per upgrade; D29 parts; D63 source grouping | 2 | Confirmed |
+| D40 once per upgrade; D29 parts; D63 source grouping; D70 Genesis counted once per source | 2 | Confirmed |
 | D17 counted once across styles | 3 | Confirmed |
 | D11 per-style breakdown; D17 | 4 | Confirmed |
-| D55 Free Upgrades and "one of" groups; D54 | 5 | Confirmed |
+| D55 Free Upgrades and "one of" groups; D54; D67 multi-upgrade options | 5 | Confirmed |
 | D12, D19 tie-break; D61 Free Upgrades first | 6 | Confirmed |
 | D26 Hard Mode separate | 7 | Confirmed |
 | D56 hide zero | 8 | Confirmed |
 | D57 see upgrades behind the count | 9 | Confirmed |
 | D6, D7 no rates or requirements in ranking; D4 owned marks | 10 | Confirmed |
+| D66 minigame and slayer-reward sources (Summary) | — | Confirmed |
+
+# Design
+Prototype mockup from the Design step (D44): [IronLog E4 What to Kill Next](https://claude.ai/artifact/AkbPsziHRmRuiYCcXQphUQ). It opens on the ranked list; the “Upgrade order” switch goes back to the E2–E3 style list, and marks made there update the ranking. The page starts with example marks. Notes above the page map each acceptance criterion to where it's shown.
+
+- Approved by Justin on 2026-10-21 as a prototype. Expect the layout to change. Where the mockup and the acceptance criteria differ, the acceptance criteria apply.
+- The prototype doesn't save between visits. IL-E2-04 (#10) describes the real behaviour.
+- Item icons come from the RuneScape Wiki, with the Jagex Fan Content Policy notice on the page (D65). The mockup shows placeholders.

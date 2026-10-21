@@ -2,7 +2,7 @@
 
 `ironlog_catalogue_v1.csv` is the approved list of what IronLog shows for each combat style, one row per upgrade instance. It's the expected result for IL-E1-01, and it resolves review finding F-01.
 
-Built on 2026-10-20 from `ba/discovery/data/` (PVME entries, the reviewed inventory and stakeholder decisions D1–D44). It covers 111 tracked items, which appear 137 times across the four styles.
+Built on 2026-10-20 from `ba/discovery/data/` (PVME entries, the reviewed inventory and stakeholder decisions D1–D44). It covers 111 tracked items, which appear 136 times across the four styles. Updated 2026-10-21 (D69): Necromancy's second Soulbound lantern (N3-05) was removed.
 
 | Column | Meaning |
 |---|---|
@@ -15,7 +15,7 @@ Built on 2026-10-20 from `ba/discovery/data/` (PVME entries, the reviewed invent
 | `inventory_item` | Key into `upgrade_inventory_review.csv` (sources, requirements, wiki link) and `parts.csv` (parts) |
 | `alternative_group`, `alternative_option` | Rows in the same group are "one of" choices (D38). Rows that share an option letter go together |
 | `pvme_notes` | PVME's own note on the entry |
-| `needed_in_style` | How many times the style needs this upgrade (D15) |
+| `needed_in_style` | How many times the style needs this upgrade. Always 1 since D69, which retired the quantity rule (D15); the column is kept so the file format doesn't change |
 
 Data is derived from PVME (CC BY-NC-SA 4.0) and the RuneScape Wiki (CC BY-NC-SA 3.0), and is shared under CC BY-NC-SA 4.0 (D9).
 

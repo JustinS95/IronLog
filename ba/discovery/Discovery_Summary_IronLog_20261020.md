@@ -58,7 +58,7 @@ The problem investigation branch was not used. The stakeholder is a domain exper
 | D12: Bosses with the same total are ordered by which drops the earliest missing item in PVME order (Needs definition for the cross-style list. See Q3) | Confirmed decision | Justin, 2026-10-20 |
 | D13: Free Upgrades page items are decided case by case | Confirmed decision | Justin, 2026-10-20 |
 | D14: An Essence of Finality entry is included, and the upgrade is the weapon whose special attack goes into the amulet (usually the drop) | Confirmed decision | Justin, 2026-10-20 |
-| D15: When an item is needed more than once, show the quantity needed and let the player enter how many they own | Confirmed decision | Justin, 2026-10-20 |
+| D15: When an item is needed more than once, show the quantity needed and let the player enter how many they own | Superseded by D69 (2026-10-21) | Justin, 2026-10-20 |
 | D16: Shard of Genesis Essence: each T95 weapon it upgrades gets a "shard applied" checkbox | Confirmed decision | Justin, 2026-10-20 |
 | D17: An item on more than one style's list counts once in the cross-style total, and is shown under every style that lists it (Resolves Q1) | Confirmed decision | Justin, 2026-10-20 |
 | D18: Shard of Genesis upgrades are counted per weapon. An owned but unapplied shard doesn't count as obtained (Resolves Q2) | Confirmed decision | Justin, 2026-10-20 |
@@ -112,6 +112,8 @@ The problem investigation branch was not used. The stakeholder is a domain exper
 | D66: Sources include minigames and slayer rewards as well as bosses, slayer creatures and heists (e.g. Fight Kiln for the TokHaar-Kal-Ket part; the Wilderness slayer chest for Annihilation). IL-E1-02's Summary and AC 1 are updated to match | Confirmed decision | Justin, 2026-10-21 |
 | D67: In a "one of" group, an option made of more than one upgrade counts as owned only when all of them are owned (refines D54). Example: Melee M3-03 is done when both Eclipsed Soul and Divine Rage are owned, or when Malevolence is owned. IL-E3-01 AC 4 is updated; IL-E4-01 AC 5 follows in the E4 Design wave | Confirmed decision | Justin, 2026-10-21 |
 | D68: The style list shows a "Next upgrade" banner above the stages that names the highlighted next upgrade and links to its row, or says every upgrade is owned. Added during the E2–E3 Design step | Confirmed decision | Justin, 2026-10-21 |
+| D69: Necromancy needs only one Soulbound lantern. PVME's second lantern (N3-05, "Upgrade to T100 Flanking switch") is for niche scenarios and is excluded. No upgrade is now needed more than once in any style, so the quantity rule (D15) is retired: IL-E1-01 AC 7, IL-E2-01 AC 4 and IL-E3-01 AC 5 are retired, and the catalogue drops to 136 rows | Confirmed decision | Justin, 2026-10-21 |
+| D70: In the source ranking, the Shard of Genesis Essence upgrades count as one upgrade for a source, however many weapons still need a shard. The source shows which weapons need one | Confirmed decision | Justin, 2026-10-21 |
 | Parts of one assembled item usually all drop from a single source group (e.g. every Rex Matriarch drops all Savage spear parts) | Fact as reported by the stakeholder ("if I remember correctly"). Exceptions to be checked against parts research | Justin, 2026-10-20; `data/parts.csv` pending |
 | Wiki drop sources in the inventory are accurate | Assumption (evidence: wiki summaries; 10 items medium confidence) | Verify medium-confidence rows before release |
 
