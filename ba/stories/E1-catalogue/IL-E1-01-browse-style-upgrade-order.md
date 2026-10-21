@@ -12,7 +12,7 @@ github_issue: 4
 **I want to** see a combat style's upgrades in PVME's recommended order,
 **so that** I know which upgrades to work toward for that style.
 
-The upgrade order comes from PVME's four upgrade-order pages (D1), taken from `pvme/pvme-guides` at commit `7a1f15f`. **The expected list for each style is [`ba/catalogue/ironlog_catalogue_v1.csv`](../../catalogue/ironlog_catalogue_v1.csv)** (111 tracked items appearing 137 times across the four styles; columns explained in the [catalogue README](../../catalogue/README.md)). PVME data is used under CC BY-NC-SA 4.0, with no commercial use (D9).
+The upgrade order comes from PVME's four upgrade-order pages (D1), taken from `pvme/pvme-guides` at commit `7a1f15f`. **The expected list for each style is [`ba/catalogue/ironlog_catalogue_v1.csv`](../../catalogue/ironlog_catalogue_v1.csv)** (111 tracked items appearing 136 times across the four styles; columns explained in the [catalogue README](../../catalogue/README.md)). PVME data is used under CC BY-NC-SA 4.0, with no commercial use (D9).
 
 # Business Value
 PVME's lists are the community's reference for gear progression, but they're written for main accounts and include things an ironman can't get from a kill. This gives an ironman the same order, limited to items they can actually collect.
@@ -24,7 +24,7 @@ PVME's lists are the community's reference for gear progression, but they're wri
 - [ ] 4. An armour set appears as one upgrade per piece. Example: Tumeken's resplendence shows five upgrades.
 - [ ] 5. Excluded items don't appear. Examples: perks, soul forge Necromancy gear, hydrix crafts, quest/minigame rewards, skill-built items, Planted Feet, Decimation, Obliteration and Asylum Surgeon's Ring. A PVME entry whose items are all excluded doesn't appear at all.
 - [ ] 6. An upgrade on more than one style's PVME list appears in each of those styles. Example: Scripture of Jas appears under all four.
-- [ ] 7. When a style needs the same upgrade more than once, the upgrade shows how many are needed. Example: Necromancy needs 2 Soulbound lanterns (entries N2-07 and N3-05).
+- 7. **Retired 2026-10-21 (D69):** no style needs an upgrade more than once. ~~When a style needs the same upgrade more than once, the upgrade shows how many are needed. Example: Necromancy needs 2 Soulbound lanterns (entries N2-07 and N3-05).~~
 - [ ] 8. Each Shard of Genesis Essence entry appears as an upgrade to the specific weapon it's applied to, named with that weapon. Examples: "Shard of Genesis Essence – Ek-ZekKil" for Melee, and one each for the Omni guard and Soulbound lantern for Necromancy.
 - [ ] 9. The Melee Essence of Finality (Annihilation) entry appears as the Annihilation upgrade.
 - [ ] 10. When a PVME entry offers a choice ("one of" or "or"), every option appears at that entry's position, labelled as an alternative. Examples: Dragon claws / Varanus' mercy; Eclipsed Soul + Divine Rage / Malevolence.
@@ -42,7 +42,7 @@ PVME's lists are the community's reference for gear progression, but they're wri
 | D30 per-piece armour | 4 | Confirmed |
 | D2, D21, D24, D28 exclusions hidden | 5 | Confirmed |
 | D17 shared items shown in each style | 6 | Confirmed |
-| D15 quantity needed | 7 | Confirmed |
+| D15 quantity needed | 7 | Superseded by D69: AC retired |
 | D16, D18 Genesis shard per weapon | 8 | Confirmed |
 | D14, D23 Essence of Finality = stored weapon; Annihilation kept | 9 | Confirmed |
 | D38 alternatives shown as alternatives (to revisit) | 10 | Confirmed for now |
