@@ -48,3 +48,10 @@ PVME's lists are the community's reference for gear progression, but they're wri
 | D38 alternatives shown as alternatives (to revisit) | 10 | Confirmed for now |
 | D22, D25, D42 Free Upgrades additions in a separate section per style | 11 | Confirmed |
 | D9 PVME attribution and license | 12 | Confirmed |
+
+# Design
+Prototype mockup from the Design step (D44): [IronLog E1 Upgrade Catalogue](https://claude.ai/artifact/495c6jnq2bnfxkFCjrgVSA). One interactive page covers this story and IL-E1-02 (#5) for all four combat styles. Select an upgrade to see its sources, parts and requirements. Notes above the page map each acceptance criterion to where it's shown.
+
+- Approved by Justin on 2026-10-21 as a prototype. Expect the layout to change. Where the mockup and the acceptance criteria differ, the acceptance criteria apply.
+- Item icons come from the RuneScape Wiki, with the Jagex Fan Content Policy notice on the page (D65). The mockup shows placeholders.
+- The empty box at the start of each row is reserved for the owned mark (IL-E2-01, #7), which isn't part of this story.
