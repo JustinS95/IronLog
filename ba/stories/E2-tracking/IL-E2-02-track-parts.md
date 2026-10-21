@@ -35,3 +35,11 @@ Many upgrades take several drops, sometimes from different bosses. Tracking part
 | D59 unmarking keeps item and parts in step | 5 | Confirmed |
 | D60 parts tracked per upgrade | 6 | Confirmed |
 | D32 no tracked parts | 7 | Confirmed |
+
+# Design
+Prototype mockup from the Design step (D44): [IronLog E2–E3 Collection Tracking](https://claude.ai/artifact/K83EZvH6ibNvUJRixMfuLA). One interactive page covers IL-E2-01 to IL-E2-04 (#7–#10) and IL-E3-01 (#11). Press Play to mark upgrades, parts and “shard applied”; the page starts with example marks. Notes above the page map each acceptance criterion to where it's shown.
+
+- Approved by Justin on 2026-10-21 as a prototype. Expect the layout to change. Where the mockup and the acceptance criteria differ, the acceptance criteria apply.
+- The prototype doesn't save between visits. IL-E2-04 (#10) describes the real behaviour.
+- A “Next upgrade” banner above the list names the highlighted upgrade and links to its row (D68).
+- Item icons come from the RuneScape Wiki, with the Jagex Fan Content Policy notice on the page (D65). The mockup shows placeholders.
