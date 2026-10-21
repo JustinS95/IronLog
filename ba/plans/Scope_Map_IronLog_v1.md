@@ -13,6 +13,8 @@ The epic split was confirmed by Justin on 2026-10-20 (D31). Epics appear on GitH
 | **E3 Style progress** (`epic:progress`) | For each style, a player sees owned versus missing upgrades in PVME order, with the next missing upgrade highlighted | **In:** per-style owned/missing view, next upgrade (D11). **Out:** cross-style ranking (E4) | Needs E1 and E2 | 3rd. Confirmed epic |
 | **E4 What to kill next** (`epic:what-to-kill`) | A player switches to one list of sources ranked by total missing upgrades across all styles, with a count per style and tie-breaks applied | **In:** cross-style total with each item counted once (D17), per-style breakdown (D11), tie-break by stage, then position, then alphabetical (D12, D19), Hard Mode as separate sources (D26), no rate weighting (D6). **Out:** drop-rate or kill-time weighting (D6) | Needs E1 and E2. **Part-counting rule open** (proposed: once per upgrade) | 4th. Confirmed epic. Ranking AC provisional |
 
+**Added 2026-10-21:** **E0 Foundation** (`epic:foundation`) holds two technical tasks, not user stories: the app foundation (IL-E0-01) and the icon import (IL-E0-02). They come before E1 (D74). How the app is built is in the [Technical Approach](Tech_Approach_IronLog_v1.md).
+
 ## Shared rules (owned by the story they govern)
 
 | Rule | Decision | Home story |
