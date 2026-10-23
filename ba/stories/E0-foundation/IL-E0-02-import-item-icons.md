@@ -3,12 +3,12 @@ key: IL-E0-02
 title: Import item icons from the RuneScape Wiki
 epic: E0 Foundation
 label: epic:foundation
-status: draft
-github_issue:
+status: published
+github_issue: 19
 ---
 
 # Summary
-**Technical task.** Copy each upgrade's inventory icon from the RuneScape Wiki into the repository, so the style lists can show it (D65, D73). The app never loads images from the wiki while it runs.
+**Technical task.** Copy each upgrade's inventory icon from the RuneScape Wiki into the repository, so the style lists can show it ([D65](../../discovery/Discovery_Summary_IronLog_20261020.md#d65 "IronLog shows item icons from the RuneScape Wiki. These images belong to Jagex, not to the wiki's CC BY-NC-SA …"), [D73](../../discovery/Discovery_Summary_IronLog_20261020.md#d73 "Item icons are copied into the repository fetched from the RuneScape Wiki by a manually run GitHub Actions wor…")). The app never loads images from the wiki while it runs.
 
 Most development sandboxes can't reach the wiki, but GitHub Actions runners can. So the icons are fetched by a workflow that Justin starts by hand, and the workflow proposes the result as a pull request.
 
@@ -22,17 +22,17 @@ Icons make a long list much quicker to scan. Copying them into the repo keeps th
 - [ ] 4. When an item's icon can't be found unambiguously, the workflow lists that item in its summary and leaves it without an icon. It never substitutes a guessed image.
 - [ ] 5. The workflow opens a pull request with the icons, the manifest and the summary, ready for Justin to review. It doesn't push to `main`.
 - [ ] 6. The style list rows show the item's icon where one exists, and the neutral placeholder otherwise. All the Shard of Genesis Essence rows use the shard's icon.
-- [ ] 7. Each page that shows icons carries the Jagex Fan Content Policy notice (already in place from IL-E0-01).
+- [ ] 7. Each page that shows icons carries the Jagex Fan Content Policy notice (already in place from [IL-E0-01](https://github.com/JustinS95/IronLog/issues/18)).
 
 # Notes
 - Only the 111 upgrade items get icons in v1. Parts and sources don't.
-- Icons belong to Jagex and are used under its Fan Content Policy, not the wiki's CC licence (D65, learning 2026-10-21-07).
-- Do this after IL-E0-01 and before or alongside IL-E1-01. E1 works without icons, using placeholders.
+- Icons belong to Jagex and are used under its Fan Content Policy, not the wiki's CC licence ([D65](../../discovery/Discovery_Summary_IronLog_20261020.md#d65 "IronLog shows item icons from the RuneScape Wiki. These images belong to Jagex, not to the wiki's CC BY-NC-SA …")). The wiki says its game images are Jagex's property, used with permission.
+- Do this after [IL-E0-01](https://github.com/JustinS95/IronLog/issues/18) and before or alongside [IL-E1-01](https://github.com/JustinS95/IronLog/issues/4). E1 works without icons, using placeholders.
 
 # Traceability
 | Requirement/source | Item | Status/decision |
 |---|---|---|
-| D73 icons copied into the repo, never loaded from the wiki at runtime | 1, 3, 6 | Confirmed |
-| D65 Jagex Fan Content Policy notice | 7 | Confirmed |
+| [D73](../../discovery/Discovery_Summary_IronLog_20261020.md#d73 "Item icons are copied into the repository fetched from the RuneScape Wiki by a manually run GitHub Actions wor…") icons copied into the repo, never loaded from the wiki at runtime | 1, 3, 6 | Confirmed |
+| [D65](../../discovery/Discovery_Summary_IronLog_20261020.md#d65 "IronLog shows item icons from the RuneScape Wiki. These images belong to Jagex, not to the wiki's CC BY-NC-SA …") Jagex Fan Content Policy notice | 7 | Confirmed |
 | No guessed data (BA working rule) | 4 | Confirmed |
-| D74 Justin merges; no pushes to `main` | 5 | Confirmed |
+| [D74](../../discovery/Discovery_Summary_IronLog_20261020.md#d74 "A separate Claude Code session builds IronLog from the published Issues, one task or story per branch and PR, …") Justin merges; no pushes to `main` | 5 | Confirmed |
