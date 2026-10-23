@@ -3,14 +3,14 @@ key: IL-E0-01
 title: Set up the IronLog app foundation
 epic: E0 Foundation
 label: epic:foundation
-status: draft
-github_issue:
+status: published
+github_issue: 18
 ---
 
 # Summary
 **Technical task.** This isn't a user story. It builds the base every story needs: the app skeleton, the data pipeline from the BA catalogue, the rules module, saved progress, tests, CI and deployment.
 
-How the app is built is described in [`ba/plans/Tech_Approach_IronLog_v1.md`](../../plans/Tech_Approach_IronLog_v1.md) (D71–D74). Feature behaviour belongs to the E1–E4 stories. This task adds no feature behaviour beyond an empty page with the required notices.
+How the app is built is described in [`ba/plans/Tech_Approach_IronLog_v1.md`](../../plans/Tech_Approach_IronLog_v1.md) ([D71](../../discovery/Discovery_Summary_IronLog_20261020.md#d71 "IronLog is a static website with no backend, built in TypeScript + React + Vite. Business rules live in a pure…")–[D74](../../discovery/Discovery_Summary_IronLog_20261020.md#d74 "A separate Claude Code session builds IronLog from the published Issues, one task or story per branch and PR, …")). Feature behaviour belongs to the E1–E4 stories. This task adds no feature behaviour beyond an empty page with the required notices.
 
 # Business Value
 Every story depends on the catalogue data loading correctly and the rules being testable on their own. Getting this right once means each story PR stays small, and Justin can QA on the live site from the first story onwards.
@@ -30,13 +30,13 @@ Every story depends on the catalogue data loading correctly and the rules being 
 # Notes
 - **Repository visibility:** GitHub Pages needs a public repository on the free plan. If the repository is still private when this is ready, item 9 is blocked. Leave the workflow in place and say so in the PR. Justin makes the repository public.
 - **Repository licence:** Justin hasn't chosen one yet (open decision in the Technical Approach). Don't add a LICENSE file in this task.
-- **Icons:** not part of this task (see IL-E0-02). Use a neutral placeholder where an icon will go.
+- **Icons:** not part of this task (see [IL-E0-02](https://github.com/JustinS95/IronLog/issues/19)). Use a neutral placeholder where an icon will go.
 
 # Traceability
 | Requirement/source | Item | Status/decision |
 |---|---|---|
-| D71 static site, TypeScript + React + Vite, rules module, tests | 1, 4, 7 | Confirmed |
-| BA catalogue is the source of truth; D69 row counts | 2, 3, 4 | Confirmed |
-| D27, D51, D60 browser storage, no clear-all, parts per upgrade | 5 | Confirmed |
-| D9, D65 notices | 6 | Confirmed |
-| D72 GitHub Pages from `main`; D74 one PR per task | 8, 9 | Confirmed |
+| [D71](../../discovery/Discovery_Summary_IronLog_20261020.md#d71 "IronLog is a static website with no backend, built in TypeScript + React + Vite. Business rules live in a pure…") static site, TypeScript + React + Vite, rules module, tests | 1, 4, 7 | Confirmed |
+| BA catalogue is the source of truth; [D69](../../discovery/Discovery_Summary_IronLog_20261020.md#d69 "Necromancy needs only one Soulbound lantern. PVME's second lantern N3-05, 'Upgrade to T100 Flanking switch' is…") row counts | 2, 3, 4 | Confirmed |
+| [D27](../../discovery/Discovery_Summary_IronLog_20261020.md#d27 "Progress is saved in the player's browser only, with no accounts first version Progress stays on one device an…"), [D51](../../discovery/Discovery_Summary_IronLog_20261020.md#d51 "No 'clear all progress' option in v1"), [D60](../../discovery/Discovery_Summary_IronLog_20261020.md#d60 "Parts are tracked separately for each upgrade") browser storage, no clear-all, parts per upgrade | 5 | Confirmed |
+| [D9](../../discovery/Discovery_Summary_IronLog_20261020.md#d9 "PVME upgrade-order data is used under CC BY-NC-SA 4.0 with attribution. Data derived from it is shared under t…"), [D65](../../discovery/Discovery_Summary_IronLog_20261020.md#d65 "IronLog shows item icons from the RuneScape Wiki. These images belong to Jagex, not to the wiki's CC BY-NC-SA …") notices | 6 | Confirmed |
+| [D72](../../discovery/Discovery_Summary_IronLog_20261020.md#d72 "IronLog will be public and is hosted on GitHub Pages, deployed from main by GitHub Actions. The repository mus…") GitHub Pages from `main`; [D74](../../discovery/Discovery_Summary_IronLog_20261020.md#d74 "A separate Claude Code session builds IronLog from the published Issues, one task or story per branch and PR, …") one PR per task | 8, 9 | Confirmed |
