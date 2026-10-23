@@ -1,0 +1,98 @@
+/* Colours follow the E1 mockup. System fonts for now, so the site makes no third-party requests. */
+:root {
+  --ink: #1a1c20;
+  --muted: #4a4f56;
+  --ground: #f5f4ef;
+  --surface: #ffffff;
+  --line: #dedbd2;
+  --accent: #0e6b66;
+  --accent-hover: #09504c;
+  color-scheme: light;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--ground);
+  color: var(--ink);
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+a {
+  color: var(--accent);
+}
+
+a:hover {
+  color: var(--accent-hover);
+}
+
+.page {
+  min-height: 100vh;
+}
+
+.site-header {
+  border-bottom: 1px solid var(--line);
+  background: var(--surface);
+}
+
+.site-header__inner {
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 18px 24px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.site-header__logo {
+  color: var(--accent);
+  flex: none;
+}
+
+.site-header__name {
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 0.2px;
+}
+
+.page__main {
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 32px 24px 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.site-footer {
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 0 24px 48px;
+}
+
+.notices {
+  border-top: 1px solid var(--line);
+  padding-top: 18px;
+  font-size: 13px;
+  line-height: 22px;
+  color: var(--muted);
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.notices p {
+  margin: 0;
+}
+
+@media (max-width: 480px) {
+  .site-header__inner,
+  .page__main,
+  .site-footer {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
