@@ -11,14 +11,17 @@ async function expectHeaderAndNotices(page: Page) {
   const wiki = notices.locator('[data-notice="wiki"]');
   const jagex = notices.locator('[data-notice="jagex"]');
 
-  await expect(pvme).toHaveText("Upgrade order from PVME's upgrade order, used under CC BY-NC-SA 4.0. Non-commercial.");
+  // The page opens on Melee, so the PVME notice credits Melee's upgrade order (IL-E1-01 AC 12).
+  await expect(pvme).toHaveText(
+    "Upgrade order from PVME's Melee upgrade order, used under CC BY-NC-SA 4.0. Non-commercial.",
+  );
   await expect(pvme.getByRole('link', { name: 'CC BY-NC-SA 4.0' })).toHaveAttribute(
     'href',
     'https://creativecommons.org/licenses/by-nc-sa/4.0/',
   );
-  await expect(pvme.getByRole('link', { name: "PVME's upgrade order" })).toHaveAttribute(
+  await expect(pvme.getByRole('link', { name: "PVME's Melee upgrade order" })).toHaveAttribute(
     'href',
-    /^https:\/\/github\.com\/pvme\/pvme-guides\//,
+    'https://github.com/pvme/pvme-guides/blob/7a1f15f/upgrading-info/upgrade-order/melee.txt',
   );
 
   await expect(wiki).toHaveText(

@@ -3,14 +3,13 @@
 
 import type { StyleName } from '../rules/types.ts';
 
-/** PVME guides at the commit the catalogue was built from (as linked in the E1 mockup). */
-const PVME_UPGRADE_ORDER = 'https://github.com/pvme/pvme-guides/tree/7a1f15f/upgrading-info/upgrade-order';
+/** IL-E1-01 AC 12: the style's PVME upgrade-order page, at the commit the catalogue was built from. */
 const pvmeStyleUrl = (style: StyleName) =>
   `https://github.com/pvme/pvme-guides/blob/7a1f15f/upgrading-info/upgrade-order/${style.toLowerCase()}.txt`;
 
 interface NoticesProps {
-  /** On a page about one style, the PVME notice links that style's upgrade order (as in the E1 mockup). */
-  style?: StyleName;
+  /** The style the page shows; the PVME notice links that style's upgrade order. */
+  style: StyleName;
 }
 
 export function Notices({ style }: NoticesProps) {
@@ -18,11 +17,8 @@ export function Notices({ style }: NoticesProps) {
     <footer className="site-footer" aria-label="Credits and notices">
       <div className="notices">
         <p data-notice="pvme">
-          Upgrade order from{' '}
-          <a href={style ? pvmeStyleUrl(style) : PVME_UPGRADE_ORDER}>
-            {style ? `PVME's ${style} upgrade order` : "PVME's upgrade order"}
-          </a>
-          , used under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>. Non-commercial.
+          Upgrade order from <a href={pvmeStyleUrl(style)}>PVME&apos;s {style} upgrade order</a>, used under{' '}
+          <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>. Non-commercial.
         </p>
         <p data-notice="wiki">
           Drop sources, parts and requirements from the <a href="https://runescape.wiki/">RuneScape Wiki</a>, used
