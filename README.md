@@ -27,7 +27,7 @@ Opens a local server at http://localhost:5173/IronLog/.
 | What | Command |
 |---|---|
 | Unit tests (Vitest): data checks, rules, saved progress | `npm test` |
-| End-to-end tests (Playwright): builds the site, serves it at http://localhost:4173/IronLog/ and checks it in a desktop and a phone-sized browser | `npm run test:e2e` |
+| End-to-end tests (Playwright): builds the site, serves it at http://localhost:4173/IronLog/ and checks it in a desktop browser | `npm run test:e2e` |
 | Type-check | `npm run typecheck` |
 | Lint | `npm run lint` |
 

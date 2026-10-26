@@ -13,10 +13,8 @@ export default defineConfig({
     baseURL: `http://localhost:${PORT}/IronLog/`,
     trace: 'retain-on-failure',
   },
-  projects: [
-    { name: 'desktop', use: { ...devices['Desktop Chrome'] } },
-    { name: 'phone', use: { ...devices['Pixel 7'] } },
-  ],
+  // Desktop web only for now (Justin, 2026-10-26: the site is a web prototype, not targeting phones).
+  projects: [{ name: 'desktop', use: { ...devices['Desktop Chrome'] } }],
   webServer: {
     command: `npm run build && npx vite preview --port ${PORT} --strictPort`,
     url: `http://localhost:${PORT}/IronLog/`,
