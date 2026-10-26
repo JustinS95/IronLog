@@ -3,6 +3,7 @@
 // does the file reading and writing. Checks follow "Data inputs" in ba/plans/Tech_Approach_IronLog_v1.md.
 
 import { CsvError, parseCsvTable } from './csv.ts';
+import { GENESIS_ITEM, GENESIS_SEPARATOR } from '../rules/genesis.ts';
 import {
   CATALOGUE_FORMAT_VERSION,
   SECTION_FREE,
@@ -33,10 +34,7 @@ export const DATA_FILES = {
 export type DataFileKey = keyof typeof DATA_FILES;
 export type DataInputs = Record<DataFileKey, string>;
 
-/** The `inventory_item` of the Shard of Genesis Essence rows (D16, D18). */
-export const GENESIS_ITEM = 'Shard of Genesis Essence';
-/** Genesis rows are named "Shard of Genesis Essence – <weapon>" in the catalogue's `upgrade` column. */
-export const GENESIS_SEPARATOR = ' – ';
+export { GENESIS_ITEM, GENESIS_SEPARATOR };
 
 const REQUIRED_COLUMNS: Record<DataFileKey, readonly string[]> = {
   catalogue: [

@@ -7,6 +7,11 @@
   --line: #dedbd2;
   --accent: #0e6b66;
   --accent-hover: #09504c;
+  --subtle: #5a5f66;
+  --row-line: #e6e3da;
+  --placeholder: #f1efe9;
+  --placeholder-line: #b9b4a7;
+  --control-line: #cfcbc0;
   color-scheme: light;
 }
 
@@ -58,6 +63,11 @@ a:hover {
   letter-spacing: 0.2px;
 }
 
+.site-header__section {
+  color: var(--subtle);
+  font-size: 14px;
+}
+
 .page__main {
   max-width: 1040px;
   margin: 0 auto;
@@ -86,6 +96,192 @@ a:hover {
 
 .notices p {
   margin: 0;
+}
+
+/* ---- Upgrade order (IL-E1-01) ---------------------------------------------------------- */
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.intro__title {
+  margin: 0;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.intro__blurb {
+  margin: 0;
+  font-size: 14px;
+  color: var(--subtle);
+}
+
+.style-picker {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.style-picker__button {
+  font: inherit;
+  font-size: 15px;
+  font-weight: 600;
+  min-height: 44px;
+  padding: 0 18px;
+  border-radius: 6px;
+  border: 1px solid var(--control-line);
+  background: var(--surface);
+  color: var(--ink);
+  cursor: pointer;
+}
+
+.style-picker__button[aria-pressed='true'] {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #ffffff;
+}
+
+.style-picker__button:focus-visible,
+.stage__toggle:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.stages {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.stage__heading {
+  margin: 0;
+}
+
+.stage__toggle {
+  font: inherit;
+  width: 100%;
+  min-height: 44px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 0 10px;
+  background: none;
+  border: none;
+  color: var(--ink);
+  text-align: left;
+  cursor: pointer;
+}
+
+.stage__name {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.stage__count {
+  font-size: 13px;
+  font-weight: 400;
+  color: var(--subtle);
+}
+
+.upgrades {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.upgrades--free {
+  border-style: dashed;
+}
+
+.upgrade {
+  display: grid;
+  grid-template-columns: 40px 64px minmax(0, 1fr);
+  gap: 14px;
+  align-items: center;
+  padding: 10px 16px;
+  min-height: 60px;
+  border-top: 1px solid var(--row-line);
+}
+
+.upgrade:first-child {
+  border-top: none;
+}
+
+.upgrade__icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 6px;
+  border: 1px dashed var(--placeholder-line);
+  background: var(--placeholder);
+}
+
+.upgrade__entry {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 13px;
+  color: var(--subtle);
+}
+
+.upgrade__name {
+  display: block;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.upgrade__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 4px;
+}
+
+.tag {
+  font-size: 12px;
+  line-height: 18px;
+  padding: 1px 8px;
+  border-radius: 4px;
+}
+
+.tag--entry {
+  background: #efede6;
+  color: #4a4f56;
+}
+
+.tag--alternative {
+  background: #e9ecfa;
+  color: #2f3c8f;
+  font-weight: 600;
+}
+
+.tag--genesis {
+  background: #dff1ee;
+  color: #0b5b57;
+  font-weight: 600;
+}
+
+.upgrade__note {
+  font-size: 12px;
+  line-height: 20px;
+  color: var(--subtle);
+  font-style: italic;
+}
+
+@media (max-width: 700px) {
+  .upgrade {
+    grid-template-columns: 40px minmax(0, 1fr);
+    gap: 10px;
+  }
+
+  .upgrade__entry {
+    display: none;
+  }
 }
 
 @media (max-width: 480px) {

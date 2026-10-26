@@ -20,6 +20,7 @@
     "pretest": "npm run data",
     "test": "vitest run",
     "test:watch": "vitest",
+    "pretest:e2e": "npm run data",
     "test:e2e": "playwright test"
   },
   "dependencies": {

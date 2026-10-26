@@ -18,6 +18,7 @@ export function Header() {
           <path d="M8 9h8M8 13h5" />
         </svg>
         <span className="site-header__name">IronLog</span>
+        <span className="site-header__section">Upgrade order</span>
       </div>
     </header>
   );
